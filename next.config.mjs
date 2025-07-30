@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-    assetPrefix: "https://yuuki.modobeta.info/restaurant/"
+    assetPrefix: "https://yuuki-ten.vercel.app/"
     // distDir: 'dist'
 };
 

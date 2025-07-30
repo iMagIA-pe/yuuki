@@ -70,7 +70,7 @@ export const Form = () => {
 
         try {
             setSendingMessage(true);
-            const response = await fetch('https://yuuki.modobeta.info/mail.php', {
+            const response = await fetch('https://yuuki-ten.vercel.app/mail.php', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/x-www-form-urlencoded',

@@ -4,7 +4,7 @@ import { Button, Image } from "@nextui-org/react"
 import FranquiciaImg from "@/assets/images/franquicia/franquicia_1.webp";
 import Link from "next/link";
 
-const url_franquicia = "https://yuuki.modobeta.info/franquicia/"
+const url_franquicia = "https://yuuki-ten.vercel.app/franquicia/"
 
 export const Franquicia = () => {
     return (
