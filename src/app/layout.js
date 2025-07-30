@@ -4,7 +4,7 @@ import {
     steelfishEb,
     electroharmonix,
     fredoka
-} from '../fonts/index.jsx'
+} from '../fonts/Index.jsx'
 
 const montserrat = Montserrat({ subsets: ['latin'] })
 
