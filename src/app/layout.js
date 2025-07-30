@@ -15,7 +15,7 @@ export const metadata = {
         title: "Yuuki | Platos Asiáticos y Ambientes Únicos",
         description: "Yuuki, el primer restaurante asiático en Lima, ofrece platos de Japón, Corea, Tailandia y Vietnam. Disfruta de una experiencia culinaria única y temática.",
     },
-    metadataBase: new URL('https://yuuki.modobeta.info/restaurant'),
+    metadataBase: new URL('https://yuuki-ten.vercel.app/'),
 };
 
 export default function RootLayout({ children }) {
