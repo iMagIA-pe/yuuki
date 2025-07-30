@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Electroharmonix';
+    src: url('Electroharmonix-Regular.eot');
+    src: url('Electroharmonix-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Electroharmonix-Regular.woff2') format('woff2'),
+        url('Electroharmonix-Regular.woff') format('woff'),
+        url('Electroharmonix-Regular.ttf') format('truetype'),
+        url('Electroharmonix-Regular.svg#Electroharmonix-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fredoka';
+    src: url('Fredoka-SemiBold.eot');
+    src: url('Fredoka-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Fredoka-SemiBold.woff2') format('woff2'),
+        url('Fredoka-SemiBold.woff') format('woff'),
+        url('Fredoka-SemiBold.ttf') format('truetype'),
+        url('Fredoka-SemiBold.svg#Fredoka-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fredoka';
+    src: url('Fredoka-Bold.eot');
+    src: url('Fredoka-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Fredoka-Bold.woff2') format('woff2'),
+        url('Fredoka-Bold.woff') format('woff'),
+        url('Fredoka-Bold.ttf') format('truetype'),
+        url('Fredoka-Bold.svg#Fredoka-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

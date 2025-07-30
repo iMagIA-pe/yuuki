@@ -1,0 +1,261 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: "Montserrat", system-ui, sans-serif;
+        scroll-behavior: smooth;
+    }
+}
+
+.drawer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 650px;
+    border-radius: 0;
+}
+
+.drawer-animated {
+    transform: translateX(-100%);
+}
+
+.drawer-animated-slide-in {
+    animation: slide-in 0.3s forwards;
+}
+
+.embla {
+    overflow: hidden;
+}
+
+.embla__container {
+    display: flex;
+}
+
+.embla__slide {
+    flex: 0 0 100%;
+    min-width: 0;
+}
+
+.scrollbar-thin {
+    scrollbar-width: thin;
+}
+
+.tab-bar {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+    touch-action: pan-x;
+    cursor: grab;
+    padding: 10px;
+}
+
+.tab-bar:active {
+    cursor: grabbing;
+}
+
+.tab {
+    padding: 16px;
+    margin: 0 8px;
+    font-weight: bold;
+    color: #333;
+    white-space: nowrap;
+}
+
+.tab.active {
+    color: #0070f3;
+    border-bottom: 2px solid #0070f3;
+}
+
+.tab-content {
+    padding: 16px;
+}
+
+.gallery_item img {
+    transition: .0s ease-in-out;
+    /* transform: scale(0.95); */
+}
+
+.gallery_item.is-snapped img {
+    transform: translateY(40px);
+}
+
+/* .gallery_viewport:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 110px;
+    z-index: 10;
+    pointer-events: none;
+    background: linear-gradient(to right, black, transparent 7%, transparent 93%, black);
+} */
+
+.iframe-map iframe {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.text-shadow {
+    paint-order: stroke fill;
+    --shadow-width: 4px;
+}
+
+.text-shadow-bold {
+    --shadow-width: 6px;
+}
+
+.text-shadow-light {
+    --shadow-width: 4px;
+}
+
+.text-shadow {
+    -webkit-text-stroke: var(--shadow-width) black;
+    /* text-shadow:
+        calc(-1 * var(--shadow-width)) calc(-1 * var(--shadow-width)) 0 #000,
+        0 calc(-1 * var(--shadow-width)) 0 #000,
+        var(--shadow-width) calc(-1 * var(--shadow-width)) 0 #000,
+        var(--shadow-width) 0 0 #000,
+        var(--shadow-width) var(--shadow-width) 0 #000,
+        0 var(--shadow-width) 0 #000,
+        calc(-1 * var(--shadow-width)) var(--shadow-width) 0 #000,
+        calc(-1 * var(--shadow-width)) 0 0 #000; */
+}
+
+.tape-arrow {
+    --shadow-width: 5px;
+}
+
+.tape-arrow:after {
+    content: "";
+    position: absolute;
+    left: 29.5px;
+    bottom: -24px;
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid transparent;
+    border-top: 15px solid #FF6200;
+    border-left: 20px solid transparent;
+    border-right: 5px solid transparent;
+    transform: skewX(45deg);
+
+    /* text-shadow:
+        calc(-1 * var(--shadow-width)) calc(-1 * var(--shadow-width)) 0 #000,
+        0 calc(-1 * var(--shadow-width)) 0 #000,
+        var(--shadow-width) calc(-1 * var(--shadow-width)) 0 #000,
+        var(--shadow-width) 0 0 #000,
+        var(--shadow-width) var(--shadow-width) 0 #000,
+        0 var(--shadow-width) 0 #000,
+        calc(-1 * var(--shadow-width)) var(--shadow-width) 0 #000,
+        calc(-1 * var(--shadow-width)) 0 0 #000;
+
+    filter:
+        drop-shadow(calc(-1 * var(--shadow-width)) calc(-1 * var(--shadow-width)) 0 #000)
+        drop-shadow(0 calc(-1 * var(--shadow-width)) 0 #000)
+        drop-shadow(var(--shadow-width) calc(-1 * var(--shadow-width)) 0 #000)
+        drop-shadow(var(--shadow-width) 0 0 #000)
+        drop-shadow(var(--shadow-width) var(--shadow-width) 0 #000)
+        drop-shadow(0 var(--shadow-width) 0 #000)
+        drop-shadow(calc(-1 * var(--shadow-width)) var(--shadow-width) 0 #000)
+        drop-shadow(calc(-1 * var(--shadow-width)) 0 0 #000); */
+}
+
+.tape-arrow:before {
+    content: "";
+    position: absolute;
+    left: 33px;
+    bottom: -28px;
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid transparent;
+    border-top: 15px solid black;
+    border-left: 20px solid transparent;
+    border-right: 5px solid transparent;
+    transform: skewX(45deg) scale(1.1);
+
+    /* text-shadow:
+        calc(-1 * var(--shadow-width)) calc(-1 * var(--shadow-width)) 0 #000,
+        0 calc(-1 * var(--shadow-width)) 0 #000,
+        var(--shadow-width) calc(-1 * var(--shadow-width)) 0 #000,
+        var(--shadow-width) 0 0 #000,
+        var(--shadow-width) var(--shadow-width) 0 #000,
+        0 var(--shadow-width) 0 #000,
+        calc(-1 * var(--shadow-width)) var(--shadow-width) 0 #000,
+        calc(-1 * var(--shadow-width)) 0 0 #000;
+
+    filter:
+        drop-shadow(calc(-1 * var(--shadow-width)) calc(-1 * var(--shadow-width)) 0 #000)
+        drop-shadow(0 calc(-1 * var(--shadow-width)) 0 #000)
+        drop-shadow(var(--shadow-width) calc(-1 * var(--shadow-width)) 0 #000)
+        drop-shadow(var(--shadow-width) 0 0 #000)
+        drop-shadow(var(--shadow-width) var(--shadow-width) 0 #000)
+        drop-shadow(0 var(--shadow-width) 0 #000)
+        drop-shadow(calc(-1 * var(--shadow-width)) var(--shadow-width) 0 #000)
+        drop-shadow(calc(-1 * var(--shadow-width)) 0 0 #000); */
+}
+
+.tape-clip-trapezoid {
+    clip-path: polygon(7% 6%, 91% 0, 100% 100%, 0% 100%);
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
+@media (min-width: 320px) {
+    .diagonal-1 {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 70px))
+    }
+
+    .diagonal-2 {
+        clip-path: polygon(0 70px, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .gallery_item {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    .gallery_item.is-snapped img {
+        transform: translateY(20px);
+    }
+}
+
+@media (min-width: 1024px) {
+    .diagonal-1 {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 150px))
+    }
+
+    .diagonal-2 {
+        clip-path: polygon(0 150px, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .gallery_item.is-snapped img {
+        transform: translateY(40px);
+    }
+
+    .banner-items-left {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .banner-items-center {
+        align-items: center;
+        text-align: center;
+    }
+
+    .banner-items-right {
+        align-items: flex-end;
+        text-align: right;
+    }
+}
