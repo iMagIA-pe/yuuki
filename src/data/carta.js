@@ -83,7 +83,7 @@ export const carta = [
                 "description": "Láminas de pescado blanco y salmón bañados en salsa de shoyu, kión y aceite de ajonjolí.",
             },
             {
-                "id": 3,
+                "id": 4,
                 "title": "Nama Harumaki",
                 "image": "./images/carta/ENTRADAS_FRIAS/NAMA_HARUMAKI.png",
                 "price": "27.00",
@@ -93,14 +93,14 @@ export const carta = [
                 }
             },
             {
-                "id": 4,
+                "id": 5,
                 "title": "Tofu Sarada",
                 "image": "./images/carta/ENTRADAS_FRIAS/TOFU_SARADA.png",
                 "price": "27.00",
                 "description": "Ensalada de tofu (queso de soya) con algas y verduras de estación. Bañado en salsa agridulce de miso con ajonjolí."
             },
             {
-                "id": 5,
+                "id": 6,
                 "title": "Poke Yuuki",
                 "image": "./images/carta/ENTRADAS_FRIAS/POKEYUUKI.png",
                 "price": "36.00",
@@ -109,8 +109,8 @@ export const carta = [
         ]
     },
      {
-        "key": "ENTRADAS_FRIAS",
-        "title": "Entradas Frías",
+        "key": "MAKIS",
+        "title": "Makis",
         "items": [
             {
                 "id": 1,
