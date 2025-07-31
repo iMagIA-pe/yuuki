@@ -64,21 +64,21 @@ export const carta = [
             {
                 "id": 1,
                 "title": "Tiradito Smoked Acevichado",
-                "image": "./images/carta/ENTRADAS_FRIAS/TIRADITOSMOKEDACEVICHADO.png",
+                "image": "./images/carta/ENTRADAS_FRIAS/TIRADITO_SMOKED_ACEVICHADO.png",
                 "price": "33.00",
                 "description": "Láminas de pescado blanco en salsa acevichada y parrillera, flambeadas con poro crocante.",
             },
                         {
                 "id": 2,
                 "title": "Tiradito Thai",
-                "image": "./images/carta/ENTRADAS_FRIAS/TIRADITOTHAI.png",
+                "image": "./images/carta/ENTRADAS_FRIAS/TIRADITO_THAI.png",
                 "price": "33.00",
                 "description": "Láminas de pescado blanco en salsa a base de mango agridulce ligeramente picante acompañado de hilos de camote crocante.",
             },
                         {
                 "id": 3,
                 "title": "Tiradito Nikkei",
-                "image": "./images/carta/ENTRADAS_FRIAS/TIRADITONIKKEI.png",
+                "image": "./images/carta/ENTRADAS_FRIAS/TIRADITO_NIKKEI.png",
                 "price": "27.00",
                 "description": "Láminas de pescado blanco y salmón bañados en salsa de shoyu, kión y aceite de ajonjolí.",
             },
@@ -102,7 +102,7 @@ export const carta = [
             {
                 "id": 6,
                 "title": "Poke Yuuki",
-                "image": "./images/carta/ENTRADAS_FRIAS/POKEYUUKI.png",
+                "image": "./images/carta/ENTRADAS_FRIAS/POKE_YUUKI.png",
                 "price": "36.00",
                 "description": "Tartare de salmón en salsa spicy con verduras de estación en salsa de ajonjolí agridulce sobre cama de shari (arroz de sushi)."
             }
