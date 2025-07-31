@@ -113,49 +113,46 @@ export const carta = [
         "title": "Entradas Calientes",
         "items": [
             {
-                "id": 1,
+                "id": 7,
                 "title": "Alitas",
                 "image": "./images/carta/ENTRADAS_CALIENTES/CRISPY_WING.png",
                 "price": "26.00",
-                "description": "AJO SHOYU: Salsa de shoyu con toques de ajo. \nBBQ COREANO: Salsa BBQ al estilo coreano. VIET: Salsa vietnamita agridulce y ligeramente picante..",
+                "description": "AJO SHOYU: Salsa de shoyu con toques de ajo. \nBBQ COREANO: Salsa BBQ al estilo coreano. VIET: Salsa vietnamita agridulce y ligeramente picante.",
             },
                         {
-                "id": 2,
-                "title": "Tiradito Thai",
-                "image": "./images/carta/ENTRADAS_FRIAS/TIRADITO_THAI.png",
+                "id": 8,
+                "title": "Gyozas",
+                "image": "./images/carta/ENTRADAS_CALIENTES/GYOZAS.png",
+                "price": "24.00",
+                "description": "Cerdo o veggie. PONZU: Salsa ponzu, ¡un acidito excelente! AJO SHOYU: Salsa de shoyu con toques de ajo. VIET: Salsa vietnamita agridulce y ligeramente picante.",
+            },
+                        {
+                "id": 9,
+                "title": "Ebi Furai",
+                "image": "./images/carta/ENTRADAS_CALIENTES/EBI_FURAI.png",
+                "price": "32.00",
+                "description": "Langostinos empanizados acompañados de ensalada de col y salsa tártara.",
+            },
+            {
+                "id": 10,
+                "title": "Ebi Tempura",
+                "image": "./images/carta/ENTRADAS_CALIENTES/EBI_TEMPURA.png",
+                "price": "32.00",
+                "description": "Langostinos arrebozados crocantes acompañados de salsa tentsuyu.",
+            },
+            {
+                "id": 11,
+                "title": "Karague de Mariscos",
+                "image": "./images/carta/ENTRADAS_CALIENTES/KARAGUE_DE_MARISCOS.png",
                 "price": "33.00",
-                "description": "Láminas de pescado blanco en salsa a base de mango agridulce ligeramente picante acompañado de hilos de camote crocante.",
-            },
-                        {
-                "id": 3,
-                "title": "Tiradito Nikkei",
-                "image": "./images/carta/ENTRADAS_FRIAS/TIRADITO_NIKKEI.png",
-                "price": "27.00",
-                "description": "Láminas de pescado blanco y salmón bañados en salsa de shoyu, kión y aceite de ajonjolí.",
+                "description": "Mariscos fritos al estilo japonés acompañado con salsa ponzu, nabo, ajo y kión rayado.",
             },
             {
-                "id": 4,
-                "title": "Nama Harumaki",
-                "image": "./images/carta/ENTRADAS_FRIAS/NAMA_HARUMAKI.png",
-                "price": "27.00",
-                "description": "¡Roll de la cocina japovietnamita! Envuelto en papel de arroz relleno de pollo teriyaki, queso crema y verduras de estación. Bañadas en salsa viet agridulce con un toque picante.",
-                "popover": {
-                    "description": "Vienen siempre 8 piezas."
-                }
-            },
-            {
-                "id": 5,
-                "title": "Tofu Sarada",
-                "image": "./images/carta/ENTRADAS_FRIAS/TOFU_SARADA.png",
-                "price": "27.00",
-                "description": "Ensalada de tofu (queso de soya) con algas y verduras de estación. Bañado en salsa agridulce de miso con ajonjolí."
-            },
-            {
-                "id": 6,
-                "title": "Poke Yuuki",
-                "image": "./images/carta/ENTRADAS_FRIAS/POKE_YUUKI.png",
-                "price": "36.00",
-                "description": "Tartare de salmón en salsa spicy con verduras de estación en salsa de ajonjolí agridulce sobre cama de shari (arroz de sushi)."
+                "id": 12,
+                "title": "Sakana Karague",
+                "image": "./images/carta/ENTRADAS_CALIENTES/SAKANA_KARAGUE.png",
+                "price": "33.00",
+                "description": "Tartare de salmón en salsa spicy con verduras de estación en salsa de ajonjolí agridulce sobre cama de shari (arroz de sushi).",
             }
         ]
     },
