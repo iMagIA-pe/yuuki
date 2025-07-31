@@ -117,7 +117,7 @@ export const carta = [
                 "title": "Alitas",
                 "image": "./images/carta/ENTRADAS_CALIENTES/CRISPY_WING.png",
                 "price": "26.00",
-                "description": "**Ajo Shoyu:** Salsa de shoyu con toques de ajo. <br><strong>BBQ Coreano:</strong> Salsa BBQ al estilo coreano. <br><b>Viet:</b> Salsa vietnamita agridulce y ligeramente picante..",
+                "description": "AJO SHOYU: Salsa de shoyu con toques de ajo. \nBBQ COREANO: Salsa BBQ al estilo coreano. VIET: Salsa vietnamita agridulce y ligeramente picante..",
             },
                         {
                 "id": 2,
