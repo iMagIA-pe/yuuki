@@ -1,5 +1,5 @@
 export const carta = [
-         {
+    /* {
         "key": "ELIMINADOS",
         "title": "--",
         "items": [
@@ -56,7 +56,7 @@ export const carta = [
                 "description": "Láminas de salmón con salsa al ají amarillo. Servido con tenkatsu (tempura crocante) y dados de palta."
             }
         ]
-    }, 
+    }, */ 
     {
         "key": "ENTRADAS_FRIAS",
         "title": "Entradas Frías",
