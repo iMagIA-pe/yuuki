@@ -1,12 +1,121 @@
 export const carta = [
+         {
+        "key": "ELIMINADOS",
+        "title": "--",
+        "items": [
+            {
+                "id": 130,
+                "title": "Goi Cuon",
+                "image": "./images/carta/ELIMINADO/GOI_CUON.png",
+                "price": "27.00",
+                "description": "Roll clásico vietnamita relleno de verduras frescas, fideo de camote y langostino al vapor. Envuelto en papel de arroz servido con salsa agridulce de ajonjolí.",
+                "popover": {
+                    "description": "Vienen siempre 2 piezas."
+                }
+            },
+            {
+                "id": 140,
+                "title": "Hiyashi Chuka",
+                "image": "./images/carta/ELIMINADO/HIYSASHI_CHUKA.png",
+                "price": "34.00",
+                "description": "¡Nuestro ramen frío! Fideos ramen al dente acompañado de pollo teriyaki, alga wakame y verduras frescas. Bañado en salsa especial agridulce."
+            },
+            {
+                "id": 160,
+                "title": "Hiyayakko",
+                "image": "./images/carta/ELIMINADO/HIYAYAKKO.png",
+                "price": "22.00",
+                "description": "Tradicional plato frío de tofu japonés (queso de soya) acompañado de cebolla china, jengibre y katsuobushi (láminas de bonito seco)."
+            },
+            {
+                "id": 180,
+                "title": "Cebiche de Salmón Yuuki",
+                "image": "./images/carta/ELIMINADO/CEBICHEDESALMONYUUKI.png",
+                "price": "36.00",
+                "description": "Dados de salmón con leche de tigre de la casa. Servido con cebolla roja, choclito americano, tenkatsu (tempura crocante) e hilos de camote crocante."
+            },
+            {
+                "id": 190,
+                "title": "Tiradito de Salmón Yuuki",
+                "image": "./images/carta/ELIMINADO/TIRADITODESSALMONYUUKI.png",
+                "price": "32.00",
+                "description": "Láminas de salmón con leche de tigre de la casa. Servido con choclito americano, tenkatsu (tempura crocante) e hilos de camote crocante."
+            },
+            {
+                "id": 200,
+                "title": "Tiradito al Ponzu",
+                "image": "./images/carta/ELIMINADO/TIRADITOALPONZU.png",
+                "price": "32.00",
+                "description": "Láminas de salmón con salsa ponzu. Servido con ají limo, ajonjolí e hilos de fideo de arroz."
+            },
+            {
+                "id": 210,
+                "title": "Tiradito al Aji Amarillo",
+                "image": "./images/carta/ELIMINADO/TIRADITOAJIAMARILLO.png",
+                "price": "32.00",
+                "description": "Láminas de salmón con salsa al ají amarillo. Servido con tenkatsu (tempura crocante) y dados de palta."
+            }
+        ]
+    }, 
     {
-        "key": "PLATOS_FRIOS",
-        "title": "Platos Fríos",
+        "key": "ENTRADAS_FRIAS",
+        "title": "Entradas Frías",
+        "items": [
+            {
+                "id": 1,
+                "title": "Tiradito Smoked Acevichado",
+                "image": "./images/carta/ENTRADAS_FRIAS/TIRADITOSMOKEDACEVICHADO.png",
+                "price": "33.00",
+                "description": "Láminas de pescado blanco en salsa acevichada y parrillera, flambeadas con poro crocante.",
+            },
+                        {
+                "id": 2,
+                "title": "Tiradito Thai",
+                "image": "./images/carta/ENTRADAS_FRIAS/TIRADITOTHAI.png",
+                "price": "33.00",
+                "description": "Láminas de pescado blanco en salsa a base de mango agridulce ligeramente picante acompañado de hilos de camote crocante.",
+            },
+                        {
+                "id": 3,
+                "title": "Tiradito Nikkei",
+                "image": "./images/carta/ENTRADAS_FRIAS/TIRADITONIKKEI.png",
+                "price": "27.00",
+                "description": "Láminas de pescado blanco y salmón bañados en salsa de shoyu, kión y aceite de ajonjolí.",
+            },
+            {
+                "id": 3,
+                "title": "Nama Harumaki",
+                "image": "./images/carta/ENTRADAS_FRIAS/NAMA_HARUMAKI.png",
+                "price": "27.00",
+                "description": "¡Roll de la cocina japovietnamita! Envuelto en papel de arroz relleno de pollo teriyaki, queso crema y verduras de estación. Bañadas en salsa viet agridulce con un toque picante.",
+                "popover": {
+                    "description": "Vienen siempre 8 piezas."
+                }
+            },
+            {
+                "id": 4,
+                "title": "Tofu Sarada",
+                "image": "./images/carta/ENTRADAS_FRIAS/TOFU_SARADA.png",
+                "price": "27.00",
+                "description": "Ensalada de tofu (queso de soya) con algas y verduras de estación. Bañado en salsa agridulce de miso con ajonjolí."
+            },
+            {
+                "id": 5,
+                "title": "Poke Yuuki",
+                "image": "./images/carta/ENTRADAS_FRIAS/POKEYUUKI.png",
+                "price": "36.00",
+                "description": "Tartare de salmón en salsa spicy con verduras de estación en salsa de ajonjolí agridulce sobre cama de shari (arroz de sushi)."
+            }
+        ]
+    },
+     {
+        "key": "ENTRADAS_FRIAS",
+        "title": "Entradas Frías",
         "items": [
             {
                 "id": 1,
                 "title": "Yuuki Maki",
-                "image": "./images/carta/PLATOS_FRIOS/YUUKI_MAKI.png",
+                "image": "./images/carta/MAKIS/YUUKI_MAKI.png",
                 "price": "35.00",
                 "description": "Relleno de langostino empanizado y palta. Cubierto de salmón, salsa cítrica especial de la casa e hilos de fideo de arroz.",
                 "popover": {
@@ -16,7 +125,7 @@ export const carta = [
             {
                 "id": 2,
                 "title": "Maki Furai",
-                "image": "./images/carta/PLATOS_FRIOS/MAKI_FURAI.png",
+                "image": "./images/carta/MAKIS/MAKI_FURAI.png",
                 "price": "35.00",
                 "description": "Relleno de salmón, queso crema y palta. Roll empanizado al panko y acompañado de salsa teriyaki.",
                 "popover": {
@@ -26,7 +135,7 @@ export const carta = [
             {
                 "id": 3,
                 "title": "Salmón Tartare",
-                "image": "./images/carta/PLATOS_FRIOS/SALMON_TARTARE.png",
+                "image": "./images/carta/MAKIS/SALMON_TARTARE.png",
                 "price": "35.00",
                 "description": "Relleno de palta, quemo crema y kiuri. Cubierto de tartare de salmón con salsa thai y poro en hilos.",
                 "popover": {
@@ -36,7 +145,7 @@ export const carta = [
             {
                 "id": 4,
                 "title": "Crispy Roll",
-                "image": "./images/carta/PLATOS_FRIOS/CRISPY_ROLL.png",
+                "image": "./images/carta/MAKIS/CRISPY_ROLL.png",
                 "price": "35.00",
                 "description": "Relleno de langostino empanizado, queso crema y palta. Servido con tenkatsu (tempura crocante), salsa teriyaki y salsa wasabimayo.",
                 "popover": {
@@ -46,7 +155,7 @@ export const carta = [
             {
                 "id": 5,
                 "title": "Maki Acevichado",
-                "image": "./images/carta/PLATOS_FRIOS/MAKI_ACEVICHADO.png",
+                "image": "./images/carta/MAKIS/MAKI_ACEVICHADO.png",
                 "price": "35.00",
                 "description": "Relleno de langostino empanizado, queso crema y palta. Cubierto de nuestra salsa acevichada especial e hilos de camote crocante.",
                 "popover": {
@@ -56,7 +165,7 @@ export const carta = [
             {
                 "id": 6,
                 "title": "Shogun Maki",
-                "image": "./images/carta/PLATOS_FRIOS/SHOGUN_MAKI.png",
+                "image": "./images/carta/MAKIS/SHOGUN_MAKI.png",
                 "price": "35.00",
                 "description": "Relleno de palta y langostino empanizado. Cubierto con salmón bañado en salsa shoyu y miel cítrica.",
                 "popover": {
@@ -66,7 +175,7 @@ export const carta = [
             {
                 "id": 7,
                 "title": "Godzilla Maki",
-                "image": "./images/carta/PLATOS_FRIOS/GODZILLA_MAKI.png",
+                "image": "./images/carta/MAKIS/GODZILLA_MAKI.png",
                 "price": "35.00",
                 "description": "Relleno de langostino empanizado y palta. Cubierto de pescado blanco, bañado en salsa anticuchera de la casa e hilos de papa crocante.",
                 "popover": {
@@ -76,7 +185,7 @@ export const carta = [
             {
                 "id": 8,
                 "title": "Maki Parrillero",
-                "image": "./images/carta/PLATOS_FRIOS/MAKI_PARRILLERO.png",
+                "image": "./images/carta/MAKIS/MAKI_PARRILLERO.png",
                 "price": "35.00",
                 "description": "Relleno de langostino empanizado, queso crema y palta. Cubierto de lomo flambeado con chimichurri.",
                 "popover": {
@@ -86,7 +195,7 @@ export const carta = [
             {
                 "id": 9,
                 "title": "Maki Koji",
-                "image": "./images/carta/PLATOS_FRIOS/MAKI_KOJI.png",
+                "image": "./images/carta/MAKIS/MAKI_KOJI.png",
                 "price": "35.00",
                 "description": "Relleno de langostino empanizado, queso crema y negui a la plancha. Cubierto de pescado blanco con salsa de ostión y chalaquita acevichada.",
                 "popover": {
@@ -96,7 +205,7 @@ export const carta = [
             {
                 "id": 10,
                 "title": "Mango Brulée Roll",
-                "image": "./images/carta/PLATOS_FRIOS/MANGO_BRULEE_ROLL.png",
+                "image": "./images/carta/MAKIS/MANGO_BRULEE_ROLL.png",
                 "price": "35.00",
                 "description": "Relleno de langostino empanizado y queso crema. Cubierto de mango caramelizado en salsa de maracuyá.",
                 "popover": {
@@ -106,7 +215,7 @@ export const carta = [
             {
                 "id": 11,
                 "title": "Gimbap",
-                "image": "./images/carta/PLATOS_FRIOS/GIMBAP.png",
+                "image": "./images/carta/KOREA/GIMBAP.png",
                 "price": "28.00",
                 "description": "Enrollado coreano relleno de cerdo salteado, tortilla de huevo, zanahoria, kiuri y lechuga. Envuelto en alga nori al ajonjolí.",
                 "popover": {
@@ -115,8 +224,8 @@ export const carta = [
             },
             {
                 "id": 12,
-                "title": "Hana Harumaki",
-                "image": "./images/carta/PLATOS_FRIOS/HANA_HARUMAKI.png",
+                "title": "Nama Harumaki",
+                "image": "./images/carta/ENTRADAS_FRIAS/NAMA_HARUMAKI.png",
                 "price": "27.00",
                 "description": "¡Roll de la cocina japovietnamita! Envuelto en papel de arroz relleno de pollo teriyaki, queso crema y verduras de estación. Bañadas en salsa viet agridulce con un toque picante.",
                 "popover": {
@@ -126,7 +235,7 @@ export const carta = [
             {
                 "id": 13,
                 "title": "Goi Cuon",
-                "image": "./images/carta/PLATOS_FRIOS/GOI_CUON.png",
+                "image": "./images/carta/ELIMINADO/GOI_CUON.png",
                 "price": "27.00",
                 "description": "Roll clásico vietnamita relleno de verduras frescas, fideo de camote y langostino al vapor. Envuelto en papel de arroz servido con salsa agridulce de ajonjolí.",
                 "popover": {
@@ -136,56 +245,56 @@ export const carta = [
             {
                 "id": 14,
                 "title": "Hiyashi Chuka",
-                "image": "./images/carta/PLATOS_FRIOS/HIYSASHI_CHUKA.png",
+                "image": "./images/carta/ELIMINADO/HIYSASHI_CHUKA.png",
                 "price": "34.00",
                 "description": "¡Nuestro ramen frío! Fideos ramen al dente acompañado de pollo teriyaki, alga wakame y verduras frescas. Bañado en salsa especial agridulce."
             },
             {
                 "id": 15,
                 "title": "Tofu Sarada",
-                "image": "./images/carta/PLATOS_FRIOS/TOFU_SARADA.png",
+                "image": "./images/carta/ENTRADAS_FRIAS/TOFU_SARADA.png",
                 "price": "27.00",
                 "description": "Ensalada de tofu (queso de soya) con algas y verduras de estación. Bañado en salsa agridulce de miso con ajonjolí."
             },
             {
                 "id": 16,
                 "title": "Hiyayakko",
-                "image": "./images/carta/PLATOS_FRIOS/HIYAYAKKO.png",
+                "image": "./images/carta/ELIMINADO/HIYAYAKKO.png",
                 "price": "22.00",
                 "description": "Tradicional plato frío de tofu japonés (queso de soya) acompañado de cebolla china, jengibre y katsuobushi (láminas de bonito seco)."
             },
             {
                 "id": 17,
                 "title": "Poke Yuuki",
-                "image": "./images/carta/PLATOS_FRIOS/POKEYUUKI.png",
+                "image": "./images/carta/ENTRADAS_FRIAS/POKEYUUKI.png",
                 "price": "36.00",
                 "description": "Tartare de salmón en salsa spicy con verduras de estación en salsa de ajonjolí agridulce sobre cama de shari (arroz de sushi)."
             },
             {
                 "id": 18,
                 "title": "Cebiche de Salmón Yuuki",
-                "image": "./images/carta/PLATOS_FRIOS/CEBICHEDESALMONYUUKI.png",
+                "image": "./images/carta/ELIMINADO/CEBICHEDESALMONYUUKI.png",
                 "price": "36.00",
                 "description": "Dados de salmón con leche de tigre de la casa. Servido con cebolla roja, choclito americano, tenkatsu (tempura crocante) e hilos de camote crocante."
             },
             {
                 "id": 19,
                 "title": "Tiradito de Salmón Yuuki",
-                "image": "./images/carta/PLATOS_FRIOS/TIRADITODESSALMONYUUKI.png",
+                "image": "./images/carta/ELIMINADO/TIRADITODESSALMONYUUKI.png",
                 "price": "32.00",
                 "description": "Láminas de salmón con leche de tigre de la casa. Servido con choclito americano, tenkatsu (tempura crocante) e hilos de camote crocante."
             },
             {
                 "id": 20,
                 "title": "Tiradito al Ponzu",
-                "image": "./images/carta/PLATOS_FRIOS/TIRADITOALPONZU.png",
+                "image": "./images/carta/ELIMINADO/TIRADITOALPONZU.png",
                 "price": "32.00",
                 "description": "Láminas de salmón con salsa ponzu. Servido con ají limo, ajonjolí e hilos de fideo de arroz."
             },
             {
                 "id": 21,
                 "title": "Tiradito al Aji Amarillo",
-                "image": "./images/carta/PLATOS_FRIOS/TIRADITOAJIAMARILLO.png",
+                "image": "./images/carta/ELIMINADO/TIRADITOAJIAMARILLO.png",
                 "price": "32.00",
                 "description": "Láminas de salmón con salsa al ají amarillo. Servido con tenkatsu (tempura crocante) y dados de palta."
             }
