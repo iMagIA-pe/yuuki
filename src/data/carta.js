@@ -108,6 +108,57 @@ export const carta = [
             }
         ]
     },
+    {
+        "key": "ENTRADAS_CALIENTES",
+        "title": "Entradas Calientes",
+        "items": [
+            {
+                "id": 1,
+                "title": "Alitas",
+                "image": "./images/carta/ENTRADAS_CALIENTES/ALITAS.png",
+                "price": "26.00",
+                "description": "<b>Ajo Shoyu:</b> Salsa de shoyu con toques de ajo. <br><b>BBQ Coreano:</b> Salsa BBQ al estilo coreano. <br><b>Viet:</b> Salsa vietnamita agridulce y ligeramente picante..",
+            },
+                        {
+                "id": 2,
+                "title": "Tiradito Thai",
+                "image": "./images/carta/ENTRADAS_FRIAS/TIRADITO_THAI.png",
+                "price": "33.00",
+                "description": "Láminas de pescado blanco en salsa a base de mango agridulce ligeramente picante acompañado de hilos de camote crocante.",
+            },
+                        {
+                "id": 3,
+                "title": "Tiradito Nikkei",
+                "image": "./images/carta/ENTRADAS_FRIAS/TIRADITO_NIKKEI.png",
+                "price": "27.00",
+                "description": "Láminas de pescado blanco y salmón bañados en salsa de shoyu, kión y aceite de ajonjolí.",
+            },
+            {
+                "id": 4,
+                "title": "Nama Harumaki",
+                "image": "./images/carta/ENTRADAS_FRIAS/NAMA_HARUMAKI.png",
+                "price": "27.00",
+                "description": "¡Roll de la cocina japovietnamita! Envuelto en papel de arroz relleno de pollo teriyaki, queso crema y verduras de estación. Bañadas en salsa viet agridulce con un toque picante.",
+                "popover": {
+                    "description": "Vienen siempre 8 piezas."
+                }
+            },
+            {
+                "id": 5,
+                "title": "Tofu Sarada",
+                "image": "./images/carta/ENTRADAS_FRIAS/TOFU_SARADA.png",
+                "price": "27.00",
+                "description": "Ensalada de tofu (queso de soya) con algas y verduras de estación. Bañado en salsa agridulce de miso con ajonjolí."
+            },
+            {
+                "id": 6,
+                "title": "Poke Yuuki",
+                "image": "./images/carta/ENTRADAS_FRIAS/POKE_YUUKI.png",
+                "price": "36.00",
+                "description": "Tartare de salmón en salsa spicy con verduras de estación en salsa de ajonjolí agridulce sobre cama de shari (arroz de sushi)."
+            }
+        ]
+    },
      {
         "key": "MAKIS",
         "title": "Makis",
