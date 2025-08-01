@@ -66,21 +66,21 @@ export const carta = [
                 "title": "Tiradito Smoked Acevichado",
                 "image": "./images/carta/ENTRADAS_FRIAS/TIRADITO_SMOKED_ACEVICHADO.png",
                 "price": "33.00",
-                "description": "Láminas de pescado blanco en salsa acevichada y parrillera, flambeadas con poro crocante.",
+                "description": "Láminas de pescado blanco en salsa acevichada y parrillera, flambeadas con poro crocante."
             },
                         {
                 "id": 2,
                 "title": "Tiradito Thai",
                 "image": "./images/carta/ENTRADAS_FRIAS/TIRADITO_THAI.png",
                 "price": "33.00",
-                "description": "Láminas de pescado blanco en salsa a base de mango agridulce ligeramente picante acompañado de hilos de camote crocante.",
+                "description": "Láminas de pescado blanco en salsa a base de mango agridulce ligeramente picante acompañado de hilos de camote crocante."
             },
                         {
                 "id": 3,
                 "title": "Tiradito Nikkei",
                 "image": "./images/carta/ENTRADAS_FRIAS/TIRADITO_NIKKEI.png",
                 "price": "27.00",
-                "description": "Láminas de pescado blanco y salmón bañados en salsa de shoyu, kión y aceite de ajonjolí.",
+                "description": "Láminas de pescado blanco y salmón bañados en salsa de shoyu, kión y aceite de ajonjolí."
             },
             {
                 "id": 4,
@@ -117,42 +117,42 @@ export const carta = [
                 "title": "Alitas",
                 "image": "./images/carta/ENTRADAS_CALIENTES/CRISPY_WING.png",
                 "price": "26.00",
-                "description": "AJO SHOYU: Salsa de shoyu con toques de ajo. \nBBQ COREANO: Salsa BBQ al estilo coreano. VIET: Salsa vietnamita agridulce y ligeramente picante.",
+                "description": "AJO SHOYU: Salsa de shoyu con toques de ajo. \nBBQ COREANO: Salsa BBQ al estilo coreano. VIET: Salsa vietnamita agridulce y ligeramente picante."
             },
                         {
                 "id": 8,
                 "title": "Gyozas",
                 "image": "./images/carta/ENTRADAS_CALIENTES/GYOZAS.png",
                 "price": "24.00",
-                "description": "Cerdo o veggie. PONZU: Salsa ponzu, ¡un acidito excelente! AJO SHOYU: Salsa de shoyu con toques de ajo. VIET: Salsa vietnamita agridulce y ligeramente picante.",
+                "description": "Cerdo o veggie. PONZU: Salsa ponzu, ¡un acidito excelente! AJO SHOYU: Salsa de shoyu con toques de ajo. VIET: Salsa vietnamita agridulce y ligeramente picante."
             },
                         {
                 "id": 9,
                 "title": "Ebi Furai",
                 "image": "./images/carta/ENTRADAS_CALIENTES/EBI_FURAI.png",
                 "price": "32.00",
-                "description": "Langostinos empanizados acompañados de ensalada de col y salsa tártara.",
+                "description": "Langostinos empanizados acompañados de ensalada de col y salsa tártara."
             },
             {
                 "id": 10,
                 "title": "Ebi Tempura",
                 "image": "./images/carta/ENTRADAS_CALIENTES/EBI_TEMPURA.png",
                 "price": "32.00",
-                "description": "Langostinos arrebozados crocantes acompañados de salsa tentsuyu.",
+                "description": "Langostinos arrebozados crocantes acompañados de salsa tentsuyu."
             },
             {
                 "id": 11,
                 "title": "Karague de Mariscos",
                 "image": "./images/carta/ENTRADAS_CALIENTES/KARAGUE_DE_MARISCOS.png",
                 "price": "33.00",
-                "description": "Mariscos fritos al estilo japonés acompañado con salsa ponzu, nabo, ajo y kión rayado.",
+                "description": "Mariscos fritos al estilo japonés acompañado con salsa ponzu, nabo, ajo y kión rayado."
             },
             {
                 "id": 12,
                 "title": "Sakana Karague",
                 "image": "./images/carta/ENTRADAS_CALIENTES/SAKANA_KARAGUE.png",
                 "price": "33.00",
-                "description": "Tartare de salmón en salsa spicy con verduras de estación en salsa de ajonjolí agridulce sobre cama de shari (arroz de sushi).",
+                "description": "Pescado frito al estilo japonés acompañado con salsa ponzu, nabo, ajo y kión rayado."
             }
         ]
     },
@@ -260,8 +260,14 @@ export const carta = [
                     "description": "Precio aplica para 10 piezas"
                 }
             },
+        ]
+    },
+    {
+        "key": "KOREA",
+        "title": "Korea",
+        "items": [
             {
-                "id": 11,
+                "id": 13,
                 "title": "Gimbap",
                 "image": "./images/carta/KOREA/GIMBAP.png",
                 "price": "28.00",
@@ -270,88 +276,6 @@ export const carta = [
                     "description": "Vienen siempre 10 piezas."
                 }
             },
-            {
-                "id": 12,
-                "title": "Nama Harumaki",
-                "image": "./images/carta/ENTRADAS_FRIAS/NAMA_HARUMAKI.png",
-                "price": "27.00",
-                "description": "¡Roll de la cocina japovietnamita! Envuelto en papel de arroz relleno de pollo teriyaki, queso crema y verduras de estación. Bañadas en salsa viet agridulce con un toque picante.",
-                "popover": {
-                    "description": "Vienen siempre 8 piezas."
-                }
-            },
-            {
-                "id": 13,
-                "title": "Goi Cuon",
-                "image": "./images/carta/ELIMINADO/GOI_CUON.png",
-                "price": "27.00",
-                "description": "Roll clásico vietnamita relleno de verduras frescas, fideo de camote y langostino al vapor. Envuelto en papel de arroz servido con salsa agridulce de ajonjolí.",
-                "popover": {
-                    "description": "Vienen siempre 2 piezas."
-                }
-            },
-            {
-                "id": 14,
-                "title": "Hiyashi Chuka",
-                "image": "./images/carta/ELIMINADO/HIYSASHI_CHUKA.png",
-                "price": "34.00",
-                "description": "¡Nuestro ramen frío! Fideos ramen al dente acompañado de pollo teriyaki, alga wakame y verduras frescas. Bañado en salsa especial agridulce."
-            },
-            {
-                "id": 15,
-                "title": "Tofu Sarada",
-                "image": "./images/carta/ENTRADAS_FRIAS/TOFU_SARADA.png",
-                "price": "27.00",
-                "description": "Ensalada de tofu (queso de soya) con algas y verduras de estación. Bañado en salsa agridulce de miso con ajonjolí."
-            },
-            {
-                "id": 16,
-                "title": "Hiyayakko",
-                "image": "./images/carta/ELIMINADO/HIYAYAKKO.png",
-                "price": "22.00",
-                "description": "Tradicional plato frío de tofu japonés (queso de soya) acompañado de cebolla china, jengibre y katsuobushi (láminas de bonito seco)."
-            },
-            {
-                "id": 17,
-                "title": "Poke Yuuki",
-                "image": "./images/carta/ENTRADAS_FRIAS/POKEYUUKI.png",
-                "price": "36.00",
-                "description": "Tartare de salmón en salsa spicy con verduras de estación en salsa de ajonjolí agridulce sobre cama de shari (arroz de sushi)."
-            },
-            {
-                "id": 18,
-                "title": "Cebiche de Salmón Yuuki",
-                "image": "./images/carta/ELIMINADO/CEBICHEDESALMONYUUKI.png",
-                "price": "36.00",
-                "description": "Dados de salmón con leche de tigre de la casa. Servido con cebolla roja, choclito americano, tenkatsu (tempura crocante) e hilos de camote crocante."
-            },
-            {
-                "id": 19,
-                "title": "Tiradito de Salmón Yuuki",
-                "image": "./images/carta/ELIMINADO/TIRADITODESSALMONYUUKI.png",
-                "price": "32.00",
-                "description": "Láminas de salmón con leche de tigre de la casa. Servido con choclito americano, tenkatsu (tempura crocante) e hilos de camote crocante."
-            },
-            {
-                "id": 20,
-                "title": "Tiradito al Ponzu",
-                "image": "./images/carta/ELIMINADO/TIRADITOALPONZU.png",
-                "price": "32.00",
-                "description": "Láminas de salmón con salsa ponzu. Servido con ají limo, ajonjolí e hilos de fideo de arroz."
-            },
-            {
-                "id": 21,
-                "title": "Tiradito al Aji Amarillo",
-                "image": "./images/carta/ELIMINADO/TIRADITOAJIAMARILLO.png",
-                "price": "32.00",
-                "description": "Láminas de salmón con salsa al ají amarillo. Servido con tenkatsu (tempura crocante) y dados de palta."
-            }
-        ]
-    },
-    {
-        "key": "ENTRADAS_CALIENTES",
-        "title": "Entradas Calientes",
-        "items": [
             {
                 "id": 1,
                 "image": "Yakitori",
