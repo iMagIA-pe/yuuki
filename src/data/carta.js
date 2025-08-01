@@ -117,14 +117,22 @@ export const carta = [
                 "title": "Alitas",
                 "image": "./images/carta/ENTRADAS_CALIENTES/CRISPY_WING.png",
                 "price": "26.00",
-                "description": "AJO SHOYU: Salsa de shoyu con toques de ajo. \nBBQ COREANO: Salsa BBQ al estilo coreano. VIET: Salsa vietnamita agridulce y ligeramente picante."
+                "description": "Alitas crocantes bañadas en tu salsa favorita. Vienen 6 piezas. Pídelas con tu salsa favorita: Ajo Shoyu, BBQ Coreano y Viet.",
+                "popover": {
+                    "title": "Pídelas con tu salsa favorita",
+                    "description": "Salsa Ajo Shoyu, BBQ Coreano y Viet."
+                }
             },
                         {
                 "id": 8,
                 "title": "Gyozas",
                 "image": "./images/carta/ENTRADAS_CALIENTES/GYOZAS.png",
                 "price": "24.00",
-                "description": "Cerdo o veggie. PONZU: Salsa ponzu, ¡un acidito excelente! AJO SHOYU: Salsa de shoyu con toques de ajo. VIET: Salsa vietnamita agridulce y ligeramente picante."
+                "description": "¡Nuestros amados gyozas japoneses, de cerdo o veggie! Vienen 6 piezas, pídelas con tu salsa favorita: Ponzu, Ajo Shoyu y Viet.",
+                "popover": {
+                    "title": "Pídelas con tu salsa favorita",
+                    "description": "Salsa Ponzu, Ajo Shoyu y Viet."
+                }
             },
                         {
                 "id": 9,
@@ -153,6 +161,179 @@ export const carta = [
                 "image": "./images/carta/ENTRADAS_CALIENTES/SAKANA_KARAGUE.png",
                 "price": "33.00",
                 "description": "Pescado frito al estilo japonés acompañado con salsa ponzu, nabo, ajo y kión rayado."
+            }
+        ]
+    },
+     {
+        "key": "SKEWERS",
+        "title": "Skewers",
+        "items": [
+            {
+                "id": 13,
+                "title": "Parrilla para Compartir",
+                "image": "./images/carta/SKEWERS/PARRILLA_PARA_COMPARTIR.png",
+                "price": "79.00",
+                "description": "Parrilla oriental anticuchera de pollo, panceta, bife ancho, calamar, langostinos y huevos de codorniz."
+            },
+            {
+                "id": 14,
+                "title": "Brochetas de Pollo",
+                "image": "./images/carta/SKEWERS/BROCHETAS_DE_POLLO.png",
+                "price": "15.00",
+                "description": "Brochetas a la parrilla oriental anticuchera de pollo."
+            },
+            {
+                "id": 15,
+                "title": "Brochetas de Panceta",
+                "image": "./images/carta/SKEWERS/BROCHETAS_DE_Panceta.png",
+                "price": "15.00",
+                "description": "Brochetas a la parrilla oriental anticuchera de panceta."
+            },
+            {
+                "id": 16,
+                "title": "Brochetas de Bife Ancho",
+                "image": "./images/carta/SKEWERS/BROCHETAS_DE_BIFE_ANCHO.png",
+                "price": "22.00",
+                "description": "Brochetas a la parrilla oriental anticuchera de bife ancho."
+            },
+            {
+                "id": 17,
+                "title": "Brochetas de Calamar",
+                "image": "./images/carta/SKEWERS/BROCHETAS_DE_CALAMAR.png",
+                "price": "15.00",
+                "description": "Brochetas a la parrilla oriental anticuchera de calamar."
+            },
+            {
+                "id": 18,
+                "title": "Brochetas de Langostinos",
+                "image": "./images/carta/SKEWERS/BROCHETAS_DE_LANGOSTINOS.png",
+                "price": "19.00",
+                "description": "Brochetas a la parrilla oriental anticuchera de langostinos."
+            },
+            {
+                "id": 19,
+                "title": "Brochetas de Huevos de Codorniz",
+                "image": "./images/carta/SKEWERS/BROCHETAS_DE_HUEVOS_DE_CODORNIZ.png",
+                "price": "15.00",
+                "description": "Brochetas a la parrilla oriental anticuchera de huevos de codorniz."
+            },
+            {
+                "id": 20,
+                "title": "Brochetas de Pollo Picante",
+                "image": "./images/carta/SKEWERS/BROCHETAS_DE_POLLO_PICANTE.png",
+                "price": "15.00",
+                "description": "Brochetas a la parrilla oriental anticuchera de pollo picante."
+            },
+            {
+                "id": 21,
+                "title": "Brochetas de Panceta Picante",
+                "image": "./images/carta/SKEWERS/BROCHETAS_DE_PANCETA_PICANTE.png",
+                "price": "15.00",
+                "description": "Brochetas a la parrilla oriental anticuchera de panceta picante."
+            },
+            {
+                "id": 22,
+                "title": "Brochetas de Bife Picante",
+                "image": "./images/carta/SKEWERS/BROCHETAS_DE_BIFE_PICANTE.png",
+                "price": "22.00",
+                "description": "Brochetas a la parrilla oriental anticuchera de bife picante."
+            },
+        ]
+    },
+    {
+        "key": "PLANCHAS",
+        "title": "Planchas",
+        "items": [
+            {
+                "id": 23,
+                "image": "./images/carta/PLANCHAS/COSTILLAS_YUUKI.png",
+                "title": "Costillas Yuuki",
+                "price": "58.00",
+                "description": "Deliciosas y suaves costillas cocidas por 10 horas, incluye papas fritas. Pídelas con tu salsa favorita: Salsa Clásica, BBQ Coreano y Ajo Shoyu.",
+                "popover": {
+                    "title": "Pídelas con tu salsa favorita",
+                    "description": "Salsa Clásica, BBQ Coreano y Ajo Shoyu."
+                }
+            },            
+            {
+                "id": 13,
+                "image": "./images/carta/A_LA_PLANCHA/DEGUSTACION_COSTILLAS.png",
+                "title": "Desgustacion de Costillas",
+                "price": "125.00",
+                "description": "¡Nuestros 4 sabores a la vez! Prueba el tasting de costillas más sabroso de todo Lima. Sale con papitas fritas."
+            }
+        ]
+    },
+    {
+        "key": "REVISAR",
+        "title": "Revisar",
+        "items": [
+            {
+                "id": 23,
+                "image": "./images/carta/PLANCHAS/COSTILLAS_YUUKI.png",
+                "title": "Costillas Yuuki",
+                "price": "58.00",
+                "description": "Deliciosas y suaves costillas cocidas por 10 horas, incluye papas fritas. Pídelas con tu salsa favorita: Salsa Clásica, BBQ Coreano y Ajo Shoyu.",
+                "popover": {
+                    "title": "Pídelas con tu salsa favorita",
+                    "description": "Salsa Clásica, BBQ Coreano y Ajo Shoyu."
+                }
+            },
+            {
+                "id": 20,
+                "image": "./images/carta/A_LA_PLANCHA/YAKIMESHI.png",
+                "title": "Yakimeshi",
+                "price": "32.00",
+                "description": "Arroz salteado con pollo y verduras, envuelto en una tortilla de huevo y servido con salsa de hongos shitake."
+            },
+            {
+                "id": 7,
+                "image": "./images/carta/A_LA_PLANCHA/CHICKEN_TERIYAKI.png",
+                "title": "Chicken Teriyaki",
+                "price": "32.00",
+                "description": "Filete de pollo bañado en salsa teriyaki. Servido con frejolito chino, brocoli y arroz japonés."
+            },
+            {
+                "id": 8,
+                "image": "./images/carta/A_LA_PLANCHA/CHICKEN_MISO.png",
+                "title": "Chicken Miso",
+                "price": "32.00",
+                "description": "Filete de pollo glaseado en salsa miso. Servido con ensalada de col y arroz japonés."
+            },
+            {
+                "id": 9,
+                "image": "./images/carta/A_LA_PLANCHA/BOKKEUMBAP.png",
+                "title": "Bokkeumbap",
+                "price": "32.00",
+                "description": "Arroz salteado con trozos de cerdo y kimchi. Envuelto en una tortilla de huevo y bañado en salsa kimchi coreana."
+            },
+            {
+                "id": 10,
+                "image": "./images/carta/A_LA_PLANCHA/YASAITAME.png",
+                "title": "Yasaiitame",
+                "price": "32.00",
+                "description": "Clásico salteado nippon de verduras al wok, acompañado de arroz japonés.",
+                "popover": {
+                    "description": "Disponible en pollo, tofu, res y langostinos"
+                }
+            },
+            {
+                "id": 11,
+                "image": "./images/carta/A_LA_PLANCHA/CHAHAN.png",
+                "title": "Chahan",
+                "price": "28.00",
+                "description": "Arroz salteado con salsa especial de la casa, negi (poro japonés) y huevo.",
+                "popover": {
+                    "description": "Disponible en pollo y chashu"
+                }
+            },
+            
+            {
+                "id": 13,
+                "image": "./images/carta/A_LA_PLANCHA/DEGUSTACION_COSTILLAS.png",
+                "title": "Desgustacion de Costillas",
+                "price": "125.00",
+                "description": "¡Nuestros 4 sabores a la vez! Prueba el tasting de costillas más sabroso de todo Lima. Sale con papitas fritas."
             }
         ]
     },
@@ -276,75 +457,7 @@ export const carta = [
                     "description": "Vienen siempre 10 piezas."
                 }
             },
-            {
-                "id": 1,
-                "image": "Yakitori",
-                "title": "Yakitori",
-                "image": "./images/carta/ENTRADAS_CALIENTES/YAKITORI.png",
-                "price": "24.00",
-                "description": "Brochetas de pollo y negi (poro japonés) bañados en salsa teriyaki.",
-            },
-            {
-                "id": 2,
-                "image": "ShioYakitori",
-                "title": "Shio Yakitori",
-                "image": "./images/carta/ENTRADAS_CALIENTES/SHIO_YAKITORI.png",
-                "price": "24.00",
-                "description": "Brochetas de pollo y negi (poro japonés) bañados en salsa especial de pimienta negra."
-            },
-            {
-                "id": 3,
-                "image": "AgedashiTofu",
-
-                "title": "Agedashi Tofu",
-                "image": "./images/carta/ENTRADAS_CALIENTES/AGEDASHI_TOFU.png",
-                "price": "25.00",
-                "description": "Cubos de tofu semi crocantes bañados en salsa shoyu con ajonjolí."
-            },
-            {
-                "id": 4,
-                "image": "Tteokbokki",
-
-                "title": "Tteokbokki",
-                "image": "./images/carta/ENTRADAS_CALIENTES/TTEOKBOKKI.png",
-                "price": "25.00",
-                "description": "Deditos de arroz glutinoso bañados en salsa BBQ coreana ligeramente picante y huevo marinado."
-            },
-            {
-                "id": 5,
-                "image": "CrispyWings",
-                "title": "Crispy Wings",
-                "image": "./images/carta/ENTRADAS_CALIENTES/CRISPY_WING.png",
-                "price": "26.00",
-                "description": "Alitas crocantes bañadas en tu salsa favorita. Vienen 6 piezas. Pídelas con tu salsa favorita: Salsa Mango Thai, Ajo Shoyu, BBQ Coreano o Kimchi",
-            },
-            {
-                "id": 6,
-                "image": "EbiFurai",
-
-                "title": "Ebi Furai",
-                "image": "./images/carta/ENTRADAS_CALIENTES/EBI_FURAI.png",
-                "price": "32.00",
-                "description": "Langostinos empanizados acompañados de ensalada de col y salsa tártara."
-            },
-            {
-                "id": 7,
-                "image": "EbiTempura",
-
-                "title": "Ebi Tempura",
-                "image": "./images/carta/ENTRADAS_CALIENTES/EBI_TEMPURA.png",
-                "price": "32.00",
-                "description": "Langostinos arrebozados crocantes acompañados de salsa tentsuyu."
-            },
-            {
-                "id": 8,
-                "image": "GyozaCrocante",
-
-                "title": "Gyoza Crocante",
-                "image": "./images/carta/ENTRADAS_CALIENTES/GYOZAS.png",
-                "price": "24.00",
-                "description": "¡Nuestros amados gyozas japoneses, de cerdo o veggie! Vienen 6 piezas, pídelas con tu salsa favorita: Salsa Ponzu, Ajo Shoyu, Viet o Kimchi"
-            }
+            
         ]
 
     },
@@ -544,78 +657,7 @@ export const carta = [
             }
         ]
     },
-    {
-        "key": "A_LA_PLANCHA",
-        "title": "A la Plancha",
-        "items": [
-            {
-                "id": 6,
-                "image": "./images/carta/A_LA_PLANCHA/YAKIMESHI.png",
-                "title": "Yakimeshi",
-                "price": "32.00",
-                "description": "Arroz salteado con pollo y verduras, envuelto en una tortilla de huevo y servido con salsa de hongos shitake."
-            },
-            {
-                "id": 7,
-                "image": "./images/carta/A_LA_PLANCHA/CHICKEN_TERIYAKI.png",
-                "title": "Chicken Teriyaki",
-                "price": "32.00",
-                "description": "Filete de pollo bañado en salsa teriyaki. Servido con frejolito chino, brocoli y arroz japonés."
-            },
-            {
-                "id": 8,
-                "image": "./images/carta/A_LA_PLANCHA/CHICKEN_MISO.png",
-                "title": "Chicken Miso",
-                "price": "32.00",
-                "description": "Filete de pollo glaseado en salsa miso. Servido con ensalada de col y arroz japonés."
-            },
-            {
-                "id": 9,
-                "image": "./images/carta/A_LA_PLANCHA/BOKKEUMBAP.png",
-                "title": "Bokkeumbap",
-                "price": "32.00",
-                "description": "Arroz salteado con trozos de cerdo y kimchi. Envuelto en una tortilla de huevo y bañado en salsa kimchi coreana."
-            },
-            {
-                "id": 10,
-                "image": "./images/carta/A_LA_PLANCHA/YASAITAME.png",
-                "title": "Yasaiitame",
-                "price": "32.00",
-                "description": "Clásico salteado nippon de verduras al wok, acompañado de arroz japonés.",
-                "popover": {
-                    "description": "Disponible en pollo, tofu, res y langostinos"
-                }
-            },
-            {
-                "id": 11,
-                "image": "./images/carta/A_LA_PLANCHA/CHAHAN.png",
-                "title": "Chahan",
-                "price": "28.00",
-                "description": "Arroz salteado con salsa especial de la casa, negi (poro japonés) y huevo.",
-                "popover": {
-                    "description": "Disponible en pollo y chashu"
-                }
-            },
-            {
-                "id": 12,
-                "image": "./images/carta/A_LA_PLANCHA/COSTILLAS.png",
-                "title": "Costillas",
-                "price": "58.00",
-                "description": "Deliciosas y suaves costillas cocidas por 10 horas. Pídelas con tu salsa favorita: Salsa Clásica, Hanoi, Seúl y Hong Kong.",
-                "popover": {
-                    "title": "Pídelas con tu salsa favorita",
-                    "description": "Salsa Clásica, Hanoi, Seúl y Hong Kong"
-                }
-            },
-            {
-                "id": 13,
-                "image": "./images/carta/A_LA_PLANCHA/DEGUSTACION_COSTILLAS.png",
-                "title": "Desgustacion de Costillas",
-                "price": "125.00",
-                "description": "¡Nuestros 4 sabores a la vez! Prueba el tasting de costillas más sabroso de todo Lima. Sale con papitas fritas."
-            }
-        ]
-    },
+    
     {
         "key": "CON_ARROZ_BLANCO",
         "title": "Con Arroz Blanco",
