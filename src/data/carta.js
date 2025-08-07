@@ -479,101 +479,101 @@ export const carta = [
         "title": "Makis",
         "items": [
             {
-                "id": 1,
+                "id": 40,
                 "title": "Yuuki Maki",
                 "image": "./images/carta/MAKIS/YUUKI_MAKI.png",
-                "price": "35.00",
-                "description": "Relleno de langostino empanizado y palta. Cubierto de salmón, salsa cítrica especial de la casa e hilos de fideo de arroz.",
+                "price": "36.00",
+                "description": "Makis rellenos de pepino, palta y queso crema, coronado con langostinos en salsa de mantequilla de ajos.",
                 "popover": {
                     "description": "Precio aplica para 10 piezas"
                 }
             },
             {
-                "id": 2,
-                "title": "Maki Furai",
-                "image": "./images/carta/MAKIS/MAKI_FURAI.png",
-                "price": "35.00",
-                "description": "Relleno de salmón, queso crema y palta. Roll empanizado al panko y acompañado de salsa teriyaki.",
-                "popover": {
-                    "description": "Precio aplica para 10 piezas"
-                }
-            },
-            {
-                "id": 3,
-                "title": "Salmón Tartare",
-                "image": "./images/carta/MAKIS/SALMON_TARTARE.png",
-                "price": "35.00",
-                "description": "Relleno de palta, quemo crema y kiuri. Cubierto de tartare de salmón con salsa thai y poro en hilos.",
-                "popover": {
-                    "description": "Precio aplica para 10 piezas"
-                }
-            },
-            {
-                "id": 4,
-                "title": "Crispy Roll",
-                "image": "./images/carta/MAKIS/CRISPY_ROLL.png",
-                "price": "35.00",
-                "description": "Relleno de langostino empanizado, queso crema y palta. Servido con tenkatsu (tempura crocante), salsa teriyaki y salsa wasabimayo.",
-                "popover": {
-                    "description": "Precio aplica para 10 piezas"
-                }
-            },
-            {
-                "id": 5,
-                "title": "Maki Acevichado",
-                "image": "./images/carta/MAKIS/MAKI_ACEVICHADO.png",
-                "price": "35.00",
-                "description": "Relleno de langostino empanizado, queso crema y palta. Cubierto de nuestra salsa acevichada especial e hilos de camote crocante.",
-                "popover": {
-                    "description": "Precio aplica para 10 piezas"
-                }
-            },
-            {
-                "id": 6,
-                "title": "Shogun Maki",
-                "image": "./images/carta/MAKIS/SHOGUN_MAKI.png",
-                "price": "35.00",
-                "description": "Relleno de palta y langostino empanizado. Cubierto con salmón bañado en salsa shoyu y miel cítrica.",
-                "popover": {
-                    "description": "Precio aplica para 10 piezas"
-                }
-            },
-            {
-                "id": 7,
+                "id": 41,
                 "title": "Godzilla Maki",
                 "image": "./images/carta/MAKIS/GODZILLA_MAKI.png",
-                "price": "35.00",
+                "price": "36.00",
                 "description": "Relleno de langostino empanizado y palta. Cubierto de pescado blanco, bañado en salsa anticuchera de la casa e hilos de papa crocante.",
                 "popover": {
                     "description": "Precio aplica para 10 piezas"
                 }
             },
             {
-                "id": 8,
+                "id": 42,
+                "title": "Shogun Maki",
+                "image": "./images/carta/MAKIS/SHOGUN_MAKI.png",
+                "price": "36.00",
+                "description": "Relleno de palta y langostino empanizado. Cubierto con salmón bañado en salsa shoyu y miel cítrica.",
+                "popover": {
+                    "description": "Precio aplica para 10 piezas"
+                }
+            },
+            {
+                "id": 43,
+                "title": "Maki Furai",
+                "image": "./images/carta/MAKIS/MAKI_FURAI.png",
+                "price": "36.00",
+                "description": "Relleno de salmón, queso crema y palta. Roll empanizado al panko y acompañado de salsa teriyaki.",
+                "popover": {
+                    "description": "Precio aplica para 10 piezas"
+                }
+            },    
+            {
+                "id": 44,
                 "title": "Maki Parrillero",
                 "image": "./images/carta/MAKIS/MAKI_PARRILLERO.png",
-                "price": "35.00",
+                "price": "36.00",
                 "description": "Relleno de langostino empanizado, queso crema y palta. Cubierto de lomo flambeado con chimichurri.",
                 "popover": {
                     "description": "Precio aplica para 10 piezas"
                 }
             },
             {
-                "id": 9,
+                "id": 45,
                 "title": "Maki Koji",
                 "image": "./images/carta/MAKIS/MAKI_KOJI.png",
-                "price": "35.00",
+                "price": "36.00",
                 "description": "Relleno de langostino empanizado, queso crema y negui a la plancha. Cubierto de pescado blanco con salsa de ostión y chalaquita acevichada.",
                 "popover": {
                     "description": "Precio aplica para 10 piezas"
                 }
             },
             {
-                "id": 10,
+                "id": 46,
+                "title": "Maki Acevichado",
+                "image": "./images/carta/MAKIS/MAKI_ACEVICHADO.png",
+                "price": "36.00",
+                "description": "Relleno de langostino empanizado, queso crema y palta. Cubierto de nuestra salsa acevichada especial e hilos de camote crocante.",
+                "popover": {
+                    "description": "Precio aplica para 10 piezas"
+                }
+            },
+            {
+                "id": 47,
                 "title": "Mango Brulée Roll",
                 "image": "./images/carta/MAKIS/MANGO_BRULEE_ROLL.png",
-                "price": "35.00",
+                "price": "36.00",
                 "description": "Relleno de langostino empanizado y queso crema. Cubierto de mango caramelizado en salsa de maracuyá.",
+                "popover": {
+                    "description": "Precio aplica para 10 piezas"
+                }
+            },
+            {
+                "id": 48,
+                "title": "Salmón Tartare",
+                "image": "./images/carta/MAKIS/SALMON_TARTARE.png",
+                "price": "36.00",
+                "description": "Relleno de palta, quemo crema y kiuri. Cubierto de tartare de salmón con salsa thai y poro en hilos.",
+                "popover": {
+                    "description": "Precio aplica para 10 piezas"
+                }
+            },
+            {
+                "id": 49,
+                "title": "Crispy Roll",
+                "image": "./images/carta/MAKIS/CRISPY_ROLL.png",
+                "price": "36.00",
+                "description": "Relleno de langostino empanizado, queso crema y palta. Servido con tenkatsu (tempura crocante), salsa teriyaki y salsa wasabimayo.",
                 "popover": {
                     "description": "Precio aplica para 10 piezas"
                 }
