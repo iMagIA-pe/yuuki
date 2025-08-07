@@ -61,7 +61,14 @@ export const carta = [
                 "title": "Desgustacion de Costillas",
                 "price": "125.00",
                 "description": "¡Nuestros 4 sabores a la vez! Prueba el tasting de costillas más sabroso de todo Lima. Sale con papitas fritas."
-            }
+            },
+            {
+                "id": 110,
+                "image": "./images/carta/CON_ARROZ/GOGIDON.png",
+                "title": "Gogi Don",
+                "price": "38.00",
+                "description": "Láminas de res salteadas con verduras en salsa de ajo."
+            },
         ]
     }, */ 
      {
@@ -78,13 +85,6 @@ export const carta = [
                     "title": "Pídelas con tu salsa favorita",
                     "description": "Salsa Clásica, BBQ Coreano y Ajo Shoyu."
                 }
-            },
-            {
-                "id": 20,
-                "image": "./images/carta/A_LA_PLANCHA/YAKIMESHI.png",
-                "title": "Yakimeshi",
-                "price": "32.00",
-                "description": "Arroz salteado con pollo y verduras, envuelto en una tortilla de huevo y servido con salsa de hongos shitake."
             },
             {
                 "id": 7,
@@ -117,17 +117,6 @@ export const carta = [
                     "description": "Disponible en pollo, tofu, res y langostinos"
                 }
             },
-            {
-                "id": 11,
-                "image": "./images/carta/A_LA_PLANCHA/CHAHAN.png",
-                "title": "Chahan",
-                "price": "28.00",
-                "description": "Arroz salteado con salsa especial de la casa, negi (poro japonés) y huevo.",
-                "popover": {
-                    "description": "Disponible en pollo y chashu"
-                }
-            },
-            
             {
                 "id": 13,
                 "image": "./images/carta/A_LA_PLANCHA/DEGUSTACION_COSTILLAS.png",
@@ -581,6 +570,96 @@ export const carta = [
         ]
     },
     {
+        "key": "CON_ARROZ",
+        "title": "Con Arroz",
+        "items": [
+            {
+                "id": 50,
+                "image": "./images/carta/CON_ARROZ/YAKIMESHI.png",
+                "title": "Yakimeshi",
+                "price": "33.00",
+                "description": "Arroz salteado con pollo y verduras, envuelto en una tortilla de huevo y servido con salsa de hongos shitake.",
+                "popover": {
+                    "description": "Disponible en cerdo o pollo."
+                }
+            },
+            {
+                "id": 51,
+                "image": "./images/carta/CON_ARROZ/GYUDON.png",
+                "title": "Gyudon",
+                "price": "33.00",
+                "description": "Cama de arroz blanco con carne de res en finos cortes, cebolla y salsa dulce."
+            },
+            {
+                "id": 52,
+                "image": "./images/carta/CON_ARROZ/BUTADON.png",
+                "title": "Butadon",
+                "price": "33.00",
+                "description": "Láminas de cerdo marinadas y salteadas en salsa especial de la casa."
+            },
+            {
+                "id": 53,
+                "image": "./images/carta/CON_ARROZ/YUUKI_DON.png",
+                "title": "Yuuki Don",
+                "price": "33.00",
+                "description": "Carne de cerdo con cebollas salteadas al wok servido con salsa agridulce especial de la casa."
+            },
+            {
+                "id": 54,
+                "image": "./images/carta/CON_ARROZ/KATSU_KARE.png",
+                "title": "Katsu Kare",
+                "price": "33.00",
+                "description": "Empanizado al panko, acompañado de salsa kare (curry japonés) y arroz blanco.",
+                "popover": {
+                    "description": "Disponible en pollo y cerdo. Los precios pueden variar según la selección."
+                }
+            },
+            {
+                "id": 55,
+                "image": "./images/carta/CON_ARROZ/KATSUDON.png",
+                "title": "Katsudon",
+                "price": "33.00",
+                "description": "Carne de cerdo empanizado, gajos de cebolla y huevo servido con salsa dulce."
+            },
+            {
+                "id": 56,
+                "image": "./images/carta/A_LA_PLANCHA/CHAHAN.png",
+                "title": "Chahan",
+                "price": "28.00",
+                "description": "Arroz salteado con salsa especial de la casa, negi (poro japonés) y huevo.",
+                "popover": {
+                    "description": "Disponible en pollo, cerdo, tofu, res y langostinos. Los precios pueden variar según la selección."
+                }
+            }
+        ]
+    },
+    {
+        "key": "FIDEOS",
+        "title": "Fideos",
+        "items": [
+            {
+                "id": 57,
+                "image": "./images/carta/FIDEOS/NODDLE_PICANTE.png",
+                "title": "Noodles Picantes",
+                "price": "33.00",
+                "description": "Fideos de huevo salteados con toques picantes y especiados.",
+                "popover": {
+                    "description": "Disponible en pollo, cerdo, tofu, res y langostinos. Los precios pueden variar según la selección.",
+                }
+            },
+            {
+                "id": 58,
+                "image": "./images/carta/FIDEOS/YAKIUDON.png",
+                "title": "Yakiudon",
+                "price": "33.00",
+                "description": "Fideos udon salteados con verduras y su toque ahumado.",
+                "popover": {
+                    "description": "Disponible en pollo, cerdo, tofu, res y langostinos. Los precios pueden variar según la selección"
+                }
+            },
+        ]
+    },
+    {
         "key": "RAMEN",
         "title": "Ramen",
         "items": [
@@ -677,22 +756,6 @@ export const carta = [
                 "title": "Niku Udon",
                 "price": "33.00",
                 "description": "Sopa de fideo udon japonés con caldo a base de dashi, servido con láminas de cerdo, algas y verduras cocidas."
-            }
-        ]
-    },
-    {
-        "key": "NOODLES_FIDEOS_DE_ASIA",
-        "title": "Noodles - Fideos de Asia",
-        "items": [
-            {
-                "id": 18,
-                "image": "./images/carta/NOODLE_FIDEO_ASIA/NODDLE_PICANTE.png",
-                "title": "Noodles Picantes",
-                "price": "33.00",
-                "description": "Fideos de huevo salteados con toques picantes y especiados.",
-                "popover": {
-                    "description": "Disponible en pollo, cerdo, tofu, res y langostinos. Los precios pueden variar según la selección"
-                }
             },
             {
                 "id": 19,
@@ -725,16 +788,6 @@ export const carta = [
                 }
             },
             {
-                "id": 22,
-                "image": "./images/carta/NOODLE_FIDEO_ASIA/YAKIUDON.png",
-                "title": "Yakiudon",
-                "price": "33.00",
-                "description": "Fideos udon salteados con verduras y su toque ahumado.",
-                "popover": {
-                    "description": "Disponible en pollo, cerdo, tofu, res y langostinos. Los precios pueden variar según la selección"
-                }
-            },
-            {
                 "id": 23,
                 "image": "./images/carta/NOODLE_FIDEO_ASIA/KARE_UDON.png",
                 "title": "Kare Udon",
@@ -747,8 +800,8 @@ export const carta = [
         ]
     },
     {
-        "key": "CROCANTES",
-        "title": "Crocantes",
+        "key": "CHICKEN STYLE",
+        "title": "Chicken Style",
         "items": [
             {
                 "id": 1,
@@ -770,73 +823,10 @@ export const carta = [
             
         ]
     },
-    
-    {
-        "key": "CON_ARROZ_BLANCO",
-        "title": "Con Arroz Blanco",
-        "items": [
-            {
-                "id": 14,
-                "image": "./images/carta/ARROZ_BLANCO/BIBIMBAP.png",
-                "title": "Bibimbap",
-                "price": "33.00",
-                "description": "Clásico bowl coreano servido con verduras salteadas, carne salteada marinada al ajo, huevo a la inglesa y salsa agridulce coreana."
-            },
-            {
-                "id": 15,
-                "image": "./images/carta/ARROZ_BLANCO/YUUKIDON.png",
-                "title": "Yuuki Don",
-                "price": "32.00",
-                "description": "Carne de cerdo con cebolla salteadas al wok servido con salsa agridulce especial de la casa."
-            },
-            {
-                "id": 16,
-                "image": "./images/carta/ARROZ_BLANCO/KATSUDON.png",
-                "title": "Katsudon",
-                "price": "32.00",
-                "description": "Carne de cerdo empanizado, gajos de cebolla y huevo servido con salsa dulce."
-            },
-            {
-                "id": 17,
-                "image": "./images/carta/ARROZ_BLANCO/GOGIDON.png",
-                "title": "Gogi Don",
-                "price": "38.00",
-                "description": "Láminas de res salteadas con verduras en salsa de ajo."
-            },
-            {
-                "id": 18,
-                "image": "./images/carta/ARROZ_BLANCO/BUTADON.png",
-                "title": "Butadon",
-                "price": "32.00",
-                "description": "Láminas de cerdo marinadas y salteadas en salsa especial de la casa."
-            },
-            {
-                "id": 19,
-                "image": "./images/carta/ARROZ_BLANCO/KOREAN_FRIED_CHICKEN.png",
-                "title": "Korean Fried Chicken",
-                "price": "32.00",
-                "description": "Trozos de pollo crocantes coreanos servidos con tu salsa favorita.",
-                "popover": {
-                    "title": "Pídelas con tu salsa favorita",
-                    "description": "Salsa Clásica, Hanoi, Seúl y Hong Kong"
-                }
-            }
-        ]
-    },
     {
         "key": "GUISO_JAPONES",
         "title": "Guiso Japones",
         "items": [
-            {
-                "id": 1,
-                "image": "./images/carta/GUISO_OBENTO/KATSU_KARE.png",
-                "title": "Katsu Kare",
-                "price": "33.00",
-                "description": "Empanizado al panko, acompañado de salsa kare (curry japonés) y arroz blanco.",
-                "popover": {
-                    "description": "Disponible en pollo, cerdo y tofu. Los precios pueden variar según la selección."
-                }
-            },
             {
                 "id": 2,
                 "image": "./images/carta/GUISO_OBENTO/KARE_RAISU.png",
