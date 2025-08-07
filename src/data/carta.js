@@ -54,9 +54,89 @@ export const carta = [
                 "image": "./images/carta/ELIMINADO/TIRADITOAJIAMARILLO.png",
                 "price": "32.00",
                 "description": "Láminas de salmón con salsa al ají amarillo. Servido con tenkatsu (tempura crocante) y dados de palta."
+            },
+            {
+                "id": 130,
+                "image": "./images/carta/ELIMINADO/DEGUSTACION_COSTILLAS.png",
+                "title": "Desgustacion de Costillas",
+                "price": "125.00",
+                "description": "¡Nuestros 4 sabores a la vez! Prueba el tasting de costillas más sabroso de todo Lima. Sale con papitas fritas."
             }
         ]
     }, */ 
+     {
+        "key": "REVISAR",
+        "title": "Revisar",
+        "items": [
+            {
+                "id": 23,
+                "image": "./images/carta/PLANCHAS/COSTILLAS_YUUKI.png",
+                "title": "Costillas Yuuki",
+                "price": "58.00",
+                "description": "Deliciosas y suaves costillas cocidas por 10 horas, incluye papas fritas. Pídelas con tu salsa favorita: Salsa Clásica, BBQ Coreano y Ajo Shoyu.",
+                "popover": {
+                    "title": "Pídelas con tu salsa favorita",
+                    "description": "Salsa Clásica, BBQ Coreano y Ajo Shoyu."
+                }
+            },
+            {
+                "id": 20,
+                "image": "./images/carta/A_LA_PLANCHA/YAKIMESHI.png",
+                "title": "Yakimeshi",
+                "price": "32.00",
+                "description": "Arroz salteado con pollo y verduras, envuelto en una tortilla de huevo y servido con salsa de hongos shitake."
+            },
+            {
+                "id": 7,
+                "image": "./images/carta/A_LA_PLANCHA/CHICKEN_TERIYAKI.png",
+                "title": "Chicken Teriyaki",
+                "price": "32.00",
+                "description": "Filete de pollo bañado en salsa teriyaki. Servido con frejolito chino, brocoli y arroz japonés."
+            },
+            {
+                "id": 8,
+                "image": "./images/carta/A_LA_PLANCHA/CHICKEN_MISO.png",
+                "title": "Chicken Miso",
+                "price": "32.00",
+                "description": "Filete de pollo glaseado en salsa miso. Servido con ensalada de col y arroz japonés."
+            },
+            {
+                "id": 9,
+                "image": "./images/carta/A_LA_PLANCHA/BOKKEUMBAP.png",
+                "title": "Bokkeumbap",
+                "price": "32.00",
+                "description": "Arroz salteado con trozos de cerdo y kimchi. Envuelto en una tortilla de huevo y bañado en salsa kimchi coreana."
+            },
+            {
+                "id": 10,
+                "image": "./images/carta/A_LA_PLANCHA/YASAITAME.png",
+                "title": "Yasaiitame",
+                "price": "32.00",
+                "description": "Clásico salteado nippon de verduras al wok, acompañado de arroz japonés.",
+                "popover": {
+                    "description": "Disponible en pollo, tofu, res y langostinos"
+                }
+            },
+            {
+                "id": 11,
+                "image": "./images/carta/A_LA_PLANCHA/CHAHAN.png",
+                "title": "Chahan",
+                "price": "28.00",
+                "description": "Arroz salteado con salsa especial de la casa, negi (poro japonés) y huevo.",
+                "popover": {
+                    "description": "Disponible en pollo y chashu"
+                }
+            },
+            
+            {
+                "id": 13,
+                "image": "./images/carta/A_LA_PLANCHA/DEGUSTACION_COSTILLAS.png",
+                "title": "Desgustacion de Costillas",
+                "price": "125.00",
+                "description": "¡Nuestros 4 sabores a la vez! Prueba el tasting de costillas más sabroso de todo Lima. Sale con papitas fritas."
+            }
+        ]
+    },
     {
         "key": "ENTRADAS_FRIAS",
         "title": "Entradas Frías",
@@ -164,7 +244,7 @@ export const carta = [
             }
         ]
     },
-     {
+    {
         "key": "SKEWERS",
         "title": "Skewers",
         "items": [
@@ -254,90 +334,147 @@ export const carta = [
                     "title": "Pídelas con tu salsa favorita",
                     "description": "Salsa Clásica, BBQ Coreano y Ajo Shoyu."
                 }
-            },            
-            {
-                "id": 13,
-                "image": "./images/carta/A_LA_PLANCHA/DEGUSTACION_COSTILLAS.png",
-                "title": "Desgustacion de Costillas",
-                "price": "125.00",
-                "description": "¡Nuestros 4 sabores a la vez! Prueba el tasting de costillas más sabroso de todo Lima. Sale con papitas fritas."
-            }
-        ]
-    },
-    {
-        "key": "REVISAR",
-        "title": "Revisar",
-        "items": [
-            {
-                "id": 23,
-                "image": "./images/carta/PLANCHAS/COSTILLAS_YUUKI.png",
-                "title": "Costillas Yuuki",
-                "price": "58.00",
-                "description": "Deliciosas y suaves costillas cocidas por 10 horas, incluye papas fritas. Pídelas con tu salsa favorita: Salsa Clásica, BBQ Coreano y Ajo Shoyu.",
-                "popover": {
-                    "title": "Pídelas con tu salsa favorita",
-                    "description": "Salsa Clásica, BBQ Coreano y Ajo Shoyu."
-                }
             },
             {
-                "id": 20,
-                "image": "./images/carta/A_LA_PLANCHA/YAKIMESHI.png",
-                "title": "Yakimeshi",
-                "price": "32.00",
-                "description": "Arroz salteado con pollo y verduras, envuelto en una tortilla de huevo y servido con salsa de hongos shitake."
+                "id": 24,
+                "image": "./images/carta/PLANCHAS/BATAYAKI_MORIAWASE.png",
+                "title": "Batayaki Moriawase",
+                "price": "38.00",
+                "description": "Parrilla de langostinos y mariscos con salsa de mantequilla con ajo acompañado de verduras."
             },
             {
-                "id": 7,
-                "image": "./images/carta/A_LA_PLANCHA/CHICKEN_TERIYAKI.png",
-                "title": "Chicken Teriyaki",
-                "price": "32.00",
-                "description": "Filete de pollo bañado en salsa teriyaki. Servido con frejolito chino, brocoli y arroz japonés."
+                "id": 25,
+                "image": "./images/carta/PLANCHAS/BATAYAKI_DE_LANGOSTINOS.png",
+                "title": "Batayaki de Langostinos",
+                "price": "43.00",
+                "description": "Parrilla de langostinos con salsa de mantequilla con ajo acompañado de verduras."
             },
             {
-                "id": 8,
-                "image": "./images/carta/A_LA_PLANCHA/CHICKEN_MISO.png",
-                "title": "Chicken Miso",
-                "price": "32.00",
-                "description": "Filete de pollo glaseado en salsa miso. Servido con ensalada de col y arroz japonés."
-            },
-            {
-                "id": 9,
-                "image": "./images/carta/A_LA_PLANCHA/BOKKEUMBAP.png",
-                "title": "Bokkeumbap",
-                "price": "32.00",
-                "description": "Arroz salteado con trozos de cerdo y kimchi. Envuelto en una tortilla de huevo y bañado en salsa kimchi coreana."
-            },
-            {
-                "id": 10,
-                "image": "./images/carta/A_LA_PLANCHA/YASAITAME.png",
+                "id": 26,
+                "image": "./images/carta/PLANCHAS/YASAIITAME.png",
                 "title": "Yasaiitame",
-                "price": "32.00",
+                "price": "33.00",
                 "description": "Clásico salteado nippon de verduras al wok, acompañado de arroz japonés.",
                 "popover": {
-                    "description": "Disponible en pollo, tofu, res y langostinos"
+                    "description": "Carne, pollo, langostino o Tofu (S/.38)."
                 }
             },
             {
-                "id": 11,
-                "image": "./images/carta/A_LA_PLANCHA/CHAHAN.png",
-                "title": "Chahan",
-                "price": "28.00",
-                "description": "Arroz salteado con salsa especial de la casa, negi (poro japonés) y huevo.",
-                "popover": {
-                    "description": "Disponible en pollo y chashu"
-                }
+                "id": 27,
+                "image": "./images/carta/PLANCHAS/SSAM.png",
+                "title": "Ssam",
+                "price": "39.00",
+                "description": "Carne de res ahumada a la parrilla, acompañada de vegetales para armar a su gusto."
             },
-            
             {
-                "id": 13,
-                "image": "./images/carta/A_LA_PLANCHA/DEGUSTACION_COSTILLAS.png",
-                "title": "Desgustacion de Costillas",
-                "price": "125.00",
-                "description": "¡Nuestros 4 sabores a la vez! Prueba el tasting de costillas más sabroso de todo Lima. Sale con papitas fritas."
-            }
+                "id": 28,
+                "image": "./images/carta/PLANCHAS/GYU_YAKINIKU.png",
+                "title": "Gyu Yakiniku",
+                "price": "38.00",
+                "description": "Bife ancho a la parrilla con chips de ajo, acompañado de salsa ponzu."
+            },
+            {
+                "id": 29,
+                "image": "./images/carta/PLANCHAS/BUTA_YAKINIKU.png",
+                "title": "Buta Yakiniku",
+                "price": "35.00",
+                "description": "Cerdo laminado en una salsa dulce/picante acompañado de moyashi pimiento y shitaque salteado."
+            },
         ]
     },
-     {
+        {
+        "key": "KOREA",
+        "title": "Korea",
+        "items": [
+            {
+                "id": 30,
+                "image": "./images/carta/KOREA/KOREAN_FRIED_CHICKEN_FAMILIAR.png",
+                "title": "Korean Fried Chicken Familiar",
+                "price": "52.00",
+                "description": "Trozos de pollo crocantes estilo coreano bañados en tu salsa favorita. Sale con arroz o papas fritas.",
+                "popover": {
+                    "description": "Salsa Ajo Shoyu, BBQ Coreano y Spicy Chicken."
+                }
+            },
+            {
+                "id": 31,
+                "image": "./images/carta/KOREA/TTEOKBOKKI.png",
+                "title": "Tteokbokki",
+                "price": "25.00",
+                "description": "Deditos de arroz glutinoso bañados en salsa BBQ coreana ligeramente picante y huevo marinado."
+            },
+            {
+                "id": 32,
+                "title": "Gimbap",
+                "image": "./images/carta/KOREA/GIMBAP.png",
+                "price": "28.00",
+                "description": "Enrollado coreano relleno de cerdo salteado, tortilla de huevo, zanahoria, kiuri y lechuga. Envuelto en alga nori al ajonjolí.",
+                "popover": {
+                    "description": "Vienen siempre 10 piezas."
+                }
+            },
+            {
+                "id": 33,
+                "image": "./images/carta/KOREA/KOREAN_FRIED_CHICKEN.png",
+                "title": "Korean Fried Chicken",
+                "price": "33.00",
+                "description": "Trozos de pollo crocantes estilo coreano servidos sobre arroz blanco con tu salsa favorita.",
+                "popover": {
+                    "description": "Salsa Ajo Shoyu, BBQ Coreano y Spicy Chicken."
+                }
+            },
+            {
+                "id": 34,
+                "image": "./images/carta/KOREA/BIBIMBAP.png",
+                "title": "Bibimbap",
+                "price": "34.00",
+                "description": "Clásico bowl coreano servido con verduras salteadas, carne salteada marinada al ajo, huevo a la inglesa y salsa agridulce coreana."
+            },
+            {
+                "id": 35,
+                "image": "./images/carta/KOREA/GOGI_BOWL.png",
+                "title": "Gogi Bowl",
+                "price": "38.00",
+                "description": "Láminas de res salteadas con verduras en salsa de ajo."
+            },
+            {
+                "id": 36,
+                "image": "./images/carta/KOREA/JAJANGMYEON.png",
+                "title": "Jajangmyeong",
+                "price": "33.00",
+                "description": "Fideos de huevo salteados con salsa clásica de frejol negro coreano.",
+                "popover": {
+                    "description": "Disponible en pollo, cerdo, tofu, res y langostinos. Los precios pueden variar según la selección."
+                }
+            },
+            {
+                "id": 37,
+                "image": "./images/carta/KOREA/JAPCHAE.png",
+                "title": "Japchae",
+                "price": "33.00",
+                "description": "Fideos de camote transparentes coreano con toques de ajonjolí.",
+                "popover": {
+                    "description": "Disponible en pollo, cerdo, tofu, res y langostinos. Los precios pueden variar según la selección."
+                }
+            },
+            {
+                "id": 38,
+                "image": "./images/carta/KOREA/RAMYEON.png",
+                "title": "Ramyeon",
+                "price": "29.00 - 36.00",
+                "description": "Sopa de fideo ramen con caldo a base de especias y ajíes coreanos, servido con cerdo laqueado, menma (brotes de bambú), algas y verduras cocidas. LIGERAMENTE PICANTE."
+            },
+            {
+                "id": 39,
+                "image": "./images/carta/KOREA/SEOLLEONGTANG.png",
+                "title": "Seolleongtang",
+                "price": "33.00",
+                "description": "Sopa coreana a base de costillar de res, fideos de camote y cebollín."
+            },
+        ]
+
+    },
+    {
         "key": "MAKIS",
         "title": "Makis",
         "items": [
@@ -442,24 +579,6 @@ export const carta = [
                 }
             },
         ]
-    },
-    {
-        "key": "KOREA",
-        "title": "Korea",
-        "items": [
-            {
-                "id": 13,
-                "title": "Gimbap",
-                "image": "./images/carta/KOREA/GIMBAP.png",
-                "price": "28.00",
-                "description": "Enrollado coreano relleno de cerdo salteado, tortilla de huevo, zanahoria, kiuri y lechuga. Envuelto en alga nori al ajonjolí.",
-                "popover": {
-                    "description": "Vienen siempre 10 piezas."
-                }
-            },
-            
-        ]
-
     },
     {
         "key": "RAMEN",
@@ -648,13 +767,7 @@ export const carta = [
                     "description": "Disponible también en lomo de cerdo y tofu."
                 }
             },
-            {
-                "id": 3,
-                "image": "./images/carta/CROCANTES/KOREAN_FRIED_CHICKEN.png",
-                "title": "Korean Fried Chicken",
-                "price": "50.00",
-                "description": "Trozos de pollo crocantes estilo coreano bañados en tu salsa favorita. Sale con arroz o papitas fritas a elección."
-            }
+            
         ]
     },
     
