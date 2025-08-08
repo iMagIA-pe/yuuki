@@ -348,7 +348,7 @@ export const carta = [
             {
                 "id": 3,
                 "title": "Brochetas de Panceta",
-                "image": "./images/carta/SKEWERS/BROCHETAS_DE_Panceta.png",
+                "image": "./images/carta/SKEWERS/BROCHETAS_DE_PANCETA.png",
                 "price": "15.00",
                 "description": "Brochetas a la parrilla oriental anticuchera de panceta."
             },
