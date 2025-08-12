@@ -397,7 +397,7 @@ export const carta = [
             {
                 "id": 10,
                 "title": "Brochetas de Bife Picante",
-                "image": "./images/carta/SKEWERS/BROCHETAS_DE_BIFE.png",
+                "image": "./images/carta/SKEWERS/BROCHETAS_DE_BIFE_ANCHO.png",
                 "price": "22.00",
                 "description": "Brochetas a la parrilla oriental anticuchera de bife picante."
             },
