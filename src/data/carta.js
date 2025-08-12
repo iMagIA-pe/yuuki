@@ -383,21 +383,21 @@ export const carta = [
             {
                 "id": 8,
                 "title": "Brochetas de Pollo Picante",
-                "image": "./images/carta/SKEWERS/BROCHETAS_DE_POLLO.png",
+                "image": "./images/carta/SKEWERS/BROCHETAS_DE_POLLO_PICANTE.png",
                 "price": "15.00",
                 "description": "Brochetas a la parrilla oriental anticuchera de pollo picante."
             },
             {
                 "id": 9,
                 "title": "Brochetas de Panceta Picante",
-                "image": "./images/carta/SKEWERS/BROCHETAS_DE_PANCETA.png",
+                "image": "./images/carta/SKEWERS/BROCHETAS_DE_PANCETA_PICANTE.png",
                 "price": "15.00",
                 "description": "Brochetas a la parrilla oriental anticuchera de panceta picante."
             },
             {
                 "id": 10,
                 "title": "Brochetas de Bife Picante",
-                "image": "./images/carta/SKEWERS/BROCHETAS_DE_BIFE_ANCHO.png",
+                "image": "./images/carta/SKEWERS/BROCHETAS_DE_BIFE_PICANTE.png",
                 "price": "22.00",
                 "description": "Brochetas a la parrilla oriental anticuchera de bife picante."
             },
