@@ -1043,21 +1043,21 @@ export const carta = [
                 "image": "./images/carta/POSTRES/PAT_BINGSU_CHOCOLATE.png",
                 "title": "Pat Bingsu Chocolate",
                 "price": "18.00",
-                "description": "Suave nieve servido con chispas y bolitas crocantes de chocolate, muñequito de leche sin lactosa, palito de chocolate y salsa de chocolate."
+                "description": "Suave nieve con chispas y bolitas de chocolate, muñequito de leche sin lactosa, palito de chocolate y crema de chocolate."
             },
             {
                 "id": 5,
                 "image": "./images/carta/POSTRES/CHOCOFURAI.png",
                 "title": "Choco Furai",
-                "price": "12.00",
-                "description": "5und de bolitas con centro líquido de chocolate."
+                "price": "14.00",
+                "description": "5 und de bolitas con centro líquido de chocolate, contiene maní."
             },
             {
                 "id": 6,
                 "image": "./images/carta/POSTRES/LICOR_CHOCOFURAI.png",
                 "title": "Licor Choco Furai (con alcohol)",
-                "price": "18.00",
-                "description": "5und de bolitas con centro líquido de chocolate y licor amaretto."
+                "price": "16.00",
+                "description": "5 und de bolitas con centro líquido de chocolate y licor amaretto."
             }
         ]
     }
