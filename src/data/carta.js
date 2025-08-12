@@ -481,7 +481,7 @@ export const carta = [
             },
             {
                 "id": 2,
-                "image": "./images/carta/KOREA/TTEOKBOKKI.png",
+                "image": "./images/carta/KOREA/TTEOKBOKI.png",
                 "title": "Tteokbokki",
                 "price": "25.00",
                 "description": "Deditos de arroz glutinoso bañados en salsa BBQ coreana ligeramente picante y huevo marinado."
@@ -717,7 +717,7 @@ export const carta = [
             },
             {
                 "id": 7,
-                "image": "./images/carta/A_LA_PLANCHA/CHAHAN.png",
+                "image": "./images/carta/CON_ARROZ/CHAHAN.png",
                 "title": "Chahan",
                 "price": "28.00",
                 "description": "Arroz salteado con salsa especial de la casa, negi (poro japonés) y huevo.",
@@ -733,7 +733,7 @@ export const carta = [
         "items": [
             {
                 "id": 1,
-                "image": "./images/carta/FIDEOS/NODDLE_PICANTE.png",
+                "image": "./images/carta/FIDEOS/NODDLES_PICANTES.png",
                 "title": "Noodles Picantes",
                 "price": "33.00",
                 "description": "Fideos de huevo salteados con toques picantes y especiados.",
@@ -856,7 +856,7 @@ export const carta = [
             },
             {
                 "id": 4,
-                "image": "./images/carta/CHICKEN_STYLE/KATSU.png",
+                "image": "./images/carta/CHICKEN_STYLE/CHICKEN_KATSU.png",
                 "title": "Chicken Katsu",
                 "price": "32.00",
                 "description": "Pollo empanizado servido con salsa katsu y acompañado de ensalada de col y arroz japonés.",
