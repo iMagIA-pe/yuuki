@@ -978,7 +978,7 @@ export const carta = [
             },
         ]
     },
-    {
+/*    {
         "key": "BEBIDAS",
         "title": "Bebidas",
         "items": [
@@ -1012,7 +1012,7 @@ export const carta = [
                 ]
             }
         ]
-    },
+    }, */
     {
         "key": "POSTRES",
         "title": "Postres",
