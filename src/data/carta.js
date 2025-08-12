@@ -242,7 +242,7 @@ export const carta = [
                 "id": 3,
                 "title": "Tiradito Nikkei",
                 "image": "./images/carta/ENTRADAS_FRIAS/TIRADITO_NIKKEI.png",
-                "price": "27.00",
+                "price": "33.00",
                 "description": "Láminas de pescado blanco y salmón bañados en salsa de shoyu, kión y aceite de ajonjolí."
             },
             {
@@ -267,7 +267,7 @@ export const carta = [
                 "title": "Poke Yuuki",
                 "image": "./images/carta/ENTRADAS_FRIAS/POKE_YUUKI.png",
                 "price": "36.00",
-                "description": "Tartare de salmón en salsa spicy con verduras de estación en salsa de ajonjolí agridulce sobre cama de shari (arroz de sushi)."
+                "description": "Tartare de salmón en salsa dulce picante, langostinos en salsa de mantequilla con ajo, acompañado con verduras y frutas de estación.dulce sobre cama de shari (arroz de sushi)."
             }
         ]
     },
@@ -733,7 +733,7 @@ export const carta = [
         "items": [
             {
                 "id": 1,
-                "image": "./images/carta/FIDEOS/NODDLES_PICANTES.png",
+                "image": "./images/carta/FIDEOS/NOODLES_PICANTES.png",
                 "title": "Noodles Picantes",
                 "price": "33.00",
                 "description": "Fideos de huevo salteados con toques picantes y especiados.",
