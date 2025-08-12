@@ -837,28 +837,28 @@ export const carta = [
                 "id": 1,
                 "image": "./images/carta/CHICKEN_STYLE/CHICKEN_MISO.png",
                 "title": "Chicken Miso",
-                "price": "32.00",
+                "price": "33.00",
                 "description": "Filete de pollo glaseado en salsa miso. Servido con ensalada de col y arroz japonés."
             },
             {
                 "id": 2,
                 "image": "./images/carta/CHICKEN_STYLE/YUUKI_CHICKEN.png",
                 "title": "Yuuki Chicken",
-                "price": "32.00",
+                "price": "33.00",
                 "description": "Pollo frito bañado en salsa negi (poro japonés) acompañado de verduras con salsa miso y arroz japonés."
             },
             {
                 "id": 3,
                 "image": "./images/carta/CHICKEN_STYLE/CHICKEN_TERIYAKI.png",
                 "title": "Chicken Teriyaki",
-                "price": "32.00",
+                "price": "33.00",
                 "description": "Filete de pollo bañado en salsa teriyaki. Servido con frejolito chino, brocoli y arroz japonés."
             },
             {
                 "id": 4,
                 "image": "./images/carta/CHICKEN_STYLE/CHICKEN_KATSU.png",
                 "title": "Chicken Katsu",
-                "price": "32.00",
+                "price": "33.00",
                 "description": "Pollo empanizado servido con salsa katsu y acompañado de ensalada de col y arroz japonés.",
                 "popover": {
                     "description": "Disponible también en lomo de cerdo."
