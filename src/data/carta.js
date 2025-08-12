@@ -928,7 +928,7 @@ export const carta = [
             },
             {
                 "id": 4,
-                "image": "./images/carta/ACOMPANAMIENTO/KARÉ.png",
+                "image": "./images/carta/ACOMPANAMIENTO/SALSA_KARE.png",
                 "title": "Karé (Salsa de Curry)",
                 "price": "8.00",
                 "description": ""
