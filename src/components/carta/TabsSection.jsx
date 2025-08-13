@@ -107,8 +107,9 @@ export const TabsSection = ({ sectionRef }) => {
                 </Button>
             </div>
             <div className='carta-grid'>
-                <ListItems tab={carta.find(item => item.key === selectedTab)} currentPage={currentPage} itemsPerPage={itemsPerPage} />
-                {
+                {/*<ListItems tab={carta.find(item => item.key === selectedTab)} currentPage={currentPage} itemsPerPage={itemsPerPage} /> */}
+                <ListItems tab={carta.find(item => item.key === selectedTab)} />
+                {/*
                     carta.find(item => item.key === selectedTab).items.length > 8 &&
                     <div className='flex justify-center gap-4 mt-[100px] sticky bottom-4 z-10'>
                         <Button
@@ -128,13 +129,14 @@ export const TabsSection = ({ sectionRef }) => {
                             Siguiente
                         </Button>
                     </div>
-                }
+                */}
             </div>
         </section>
     );
 };
 
-const ListItems = ({ tab, currentPage, itemsPerPage }) => {
+//const ListItems = ({ tab, currentPage, itemsPerPage }) => {
+const ListItems = ({ tab }) => {
     const windowWidth = useWindowWidth();
     let numCols;
 
@@ -146,8 +148,9 @@ const ListItems = ({ tab, currentPage, itemsPerPage }) => {
         numCols = 1;
     }
 
-    const startIndex = (currentPage - 1) * itemsPerPage;
-    const paginatedItems = tab.items.slice(startIndex, startIndex + itemsPerPage);
+    //const startIndex = (currentPage - 1) * itemsPerPage;
+    //const paginatedItems = tab.items.slice(startIndex, startIndex + itemsPerPage);
+    const paginatedItems = tab.items;
 
     return (
         <div className='grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4 carta-grid__item'>
