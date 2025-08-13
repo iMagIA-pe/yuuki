@@ -25,7 +25,7 @@ export const carta = [
                 "title": "Hiyayakko",
                 "image": "./images/carta/ELIMINADO/HIYAYAKKO.png",
                 "price": "22.00",
-                "description": "Tradicional plato frío de tofu japonés (queso de soya) acompañado de cebolla china, jengibre y katsuobushi (láminas de bonito seco)."
+                "description": "Tradicional plato frío de tofu japonés acompañado de cebolla china, jengibre y katsuobushi (láminas de bonito seco)."
             },
             {
                 "id": --,
@@ -250,7 +250,7 @@ export const carta = [
                 "title": "Nama Harumaki",
                 "image": "./images/carta/ENTRADAS_FRIAS/NAMA_HARUMAKI.png",
                 "price": "27.00",
-                "description": "¡Roll de la cocina japovietnamita! Envuelto en papel de arroz relleno de pollo teriyaki, queso crema y verduras de estación. Bañadas en salsa viet agridulce con un toque picante.",
+                "description": "Envuelto en papel de arroz relleno de pollo teriyaki, queso crema y verduras de estación. Bañadas en salsa viet agridulce con un toque picante.",
                 "popover": {
                     "description": "Vienen siempre 8 piezas."
                 }
@@ -260,7 +260,7 @@ export const carta = [
                 "title": "Tofu Sarada",
                 "image": "./images/carta/ENTRADAS_FRIAS/TOFU_SARADA.png",
                 "price": "27.00",
-                "description": "Ensalada de tofu (queso de soya) con algas y verduras de estación. Bañado en salsa agridulce de miso con ajonjolí."
+                "description": "Ensalada de tofu con algas y verduras de estación. Bañado en salsa agridulce de miso con ajonjolí."
             },
             {
                 "id": 6,
