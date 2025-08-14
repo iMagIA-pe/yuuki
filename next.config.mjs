@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export',
-    assetPrefix: "https://yuuki-ten.vercel.app/"
-    // distDir: 'dist'
-};
+  output: 'export',
+  images: {
+    unoptimized: true,
+  },
+}
 
 export default nextConfig;
