@@ -267,7 +267,7 @@ export const carta = [
                 "title": "Poke Yuuki",
                 "image": "./images/carta/ENTRADAS_FRIAS/POKE_YUUKI.png",
                 "price": "36.00",
-                "description": "Tartare de salmón en salsa dulce picante, langostinos en salsa de mantequilla con ajo, acompañado con verduras y frutas de estación.dulce sobre cama de shari (arroz de sushi)."
+                "description": "Tartare de salmón en salsa dulce picante, langostinos en salsa de mantequilla con ajo, acompañado con verduras y frutas de estación dulce sobre cama de shari (arroz de sushi)."
             }
         ]
     },
@@ -944,14 +944,29 @@ export const carta = [
                 "image": "./images/carta/BUBBLE_TEA/FRUIT_TEA.png",
                 "title": "Fruit Tea",
                 "price": "14.00",
-                "description": "Bubble tea disponible en sabores manzana, uva, pitahaya, melón y piña."
+                "list": [
+                    'Manzana.',
+                    'Uva.',
+                    'Pitahaya.',
+                    'Melón.',
+                    'Piña.',                    
+                ]
             },
             {
                 "id": 2,
                 "image": "./images/carta/BUBBLE_TEA/FRUIT_JUICE.png",
                 "title": "Fruit Juice",
                 "price": "14.00",
-                "description": "Pídelo en los siguientes sabores: Ginseng, cocopiña, fresa, maracuyá, frambuesa, mango, yuzu y toronja."
+                "list": [
+                    'Ginseng.',
+                    'Cocopiña.',
+                    'Fresa.',
+                    'Maracuyá.',
+                    'Frambuesa.',
+                    'Mango.',
+                    'Yuzu.',
+                    'Toronja.',
+                 ]
             },
             {
                 "id": 3,
