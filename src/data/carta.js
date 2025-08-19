@@ -988,7 +988,7 @@ export const carta = [
                 "list": [
                     'Popping Bobba - Perla explosiva.',
                     'Jelly - Gelatina.',
-                    'Tapioca Boba - Perla de Tapioca.',                    
+                    'Tapioca Boba - Perla de tapioca.',                    
                 ]
             },
         ]
