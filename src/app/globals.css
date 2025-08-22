@@ -261,14 +261,24 @@
     }
 }
 
-/* Fix visualización de texto en navegador interno de Instagram en iOS */
 @supports (-webkit-touch-callout: none) {
-  body * {
-    white-space: normal !important;
-    word-break: keep-all !important;
-    overflow-wrap: break-word !important;
-    hyphens: none !important;
-    -webkit-font-smoothing: antialiased !important;
-    font-smooth: always;
+  /* Aplica solo en Safari/iOS y navegadores embebidos como el de Instagram */
+
+  /* Targeteamos directamente los cards de la carta en iOS */
+  .carta-grid .nextui-card-header {
+    flex: 0 0 25% !important;
+    max-height: 25% !important;
+    overflow: hidden !important;
+  }
+
+  .carta-grid .nextui-card-header img {
+    object-fit: contain !important;
+    height: 100% !important;
+    width: 100% !important;
+  }
+
+  .carta-grid .nextui-card-body {
+    flex: 1 !important;
+    overflow: hidden !important;
   }
 }
