@@ -231,6 +231,7 @@
     }
 }
 
+
 @media (min-width: 1024px) {
     .diagonal-1 {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 150px))
@@ -258,4 +259,16 @@
         align-items: flex-end;
         text-align: right;
     }
+}
+
+/* Fix visualización de texto en navegador interno de Instagram en iOS */
+@supports (-webkit-touch-callout: none) {
+  body * {
+    white-space: normal !important;
+    word-break: keep-all !important;
+    overflow-wrap: break-word !important;
+    hyphens: none !important;
+    -webkit-font-smoothing: antialiased !important;
+    font-smooth: always;
+  }
 }
