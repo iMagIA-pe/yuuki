@@ -261,6 +261,7 @@
     }
 }
 
+
 @supports (-webkit-touch-callout: none) {
   /* Aplica solo en Safari/iOS y navegadores embebidos como el de Instagram */
 
