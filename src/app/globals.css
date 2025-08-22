@@ -212,7 +212,7 @@
     }
 }
 
-@media (min-width: 320px) {
+@media (min-width: 240px) {
     .diagonal-1 {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 70px))
     }
@@ -259,24 +259,4 @@
         align-items: flex-end;
         text-align: right;
     }
-}
-
-
-@supports (-webkit-touch-callout: none) {
-  /* Forzar una sola columna en el navegador interno de Instagram en iOS */
-  .carta-grid .carta-grid__item {
-    grid-template-columns: 1fr !important;
-  }
-
-  @media (min-width: 640px) {
-    .carta-grid .carta-grid__item {
-      grid-template-columns: 1fr !important;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    .carta-grid .carta-grid__item {
-      grid-template-columns: 1fr !important;
-    }
-  }
 }
