@@ -260,3 +260,32 @@
         text-align: right;
     }
 }
+
+.animate-wiggle {
+  animation: wiggle 0.5s ease-in-out infinite;
+}
+
+@keyframes wiggle-twice {
+  0%, 10%, 20% {
+    transform: translateY(0);
+  }
+  5% {
+    transform: translateY(-6px);
+  }
+  15% {
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Duración 4s: 1s rebotes + 3s quieto */
+.animate-wiggle-twice {
+  animation: wiggle-twice 4s ease-in-out infinite;
+}
+
+.bg-dots {
+  background-image: radial-gradient(#25D366 1px, transparent 1px);
+  background-size: 16px 16px;
+}

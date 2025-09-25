@@ -11,7 +11,7 @@ import { Locales } from "@/components/locales/Locales";
 import { Franquicia } from "@/components/franquicia/Franquicia";
 import { Form } from "@/components/form/Form";
 import { motion } from "framer-motion";
-
+import WhatsAppFab from "@/components/WhatsAppFab";
 import DecoOsoNube from "@/assets/vectors/deco_oso_nube.png"
 import DecoOsoVisitanos from "@/assets/vectors/deco_visitanos.svg"
 import DecoNube from "@/assets/vectors/deco_nube.svg"
@@ -195,6 +195,7 @@ export default function Home() {
                     <Footer />
                 </div>
             </main>
+            <WhatsAppFab />
         </NextUIProvider>
     );
 }
