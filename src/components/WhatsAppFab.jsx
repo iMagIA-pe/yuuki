@@ -6,24 +6,38 @@ export default function WhatsAppFab() {
   const [showTip, setShowTip] = useState(true); // globo “Reserva aquí”
   const panelRef = useRef(null);
 
+  // ==== TRACKING HELPER (GTM + GA4) ====
+  const trackEvent = (name, params = {}) => {
+    if (typeof window !== "undefined") {
+
+      // GA4 directo (si NO usas GTM)
+      if (window.gtag) {
+        window.gtag("event", name, params);
+      }
+    }
+  };
+
   // EDITA tus 3 locales aquí
   const locales = [
     {
       nombre: "Surco",
       numero: "51941442963",
-      mensaje: "Hola, vengo de la web yuuki.pe, quiero reservar en el local de Av. Aviación.",
+      mensaje:
+        "Hola, vengo de la web yuuki.pe, quiero reservar en el local de Av. Aviación.",
       textoBoton: "Surco, Av. Aviación 4839",
     },
     {
       nombre: "San Isidro",
       numero: "51905463539",
-      mensaje: "Hola, vengo de la web yuuki.pe, quiero reservar en el local de Av. 2 de Mayo en San Isidro.",
+      mensaje:
+        "Hola, vengo de la web yuuki.pe, quiero reservar en el local de Av. 2 de Mayo en San Isidro.",
       textoBoton: "San Isidro, Av. 2 de mayo 585",
     },
     {
       nombre: "Monterrico",
       numero: "51932245538",
-      mensaje: "Hola, vengo de la web yuuki.pe, quiero reservar en el local de Av. Primavera.",
+      mensaje:
+        "Hola, vengo de la web yuuki.pe, quiero reservar en el local de Av. Primavera.",
       textoBoton: "Monterrico, Av. Primavera 1551",
     },
   ];
@@ -31,18 +45,54 @@ export default function WhatsAppFab() {
   const waLink = (numero, mensaje) =>
     `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
 
+  // Abrir panel (y track)
+  const handleTogglePanel = () => {
+    setOpen((prev) => {
+      const next = !prev;
+      if (next) {
+        trackEvent("wa_panel_open", { source: "fab" });
+      } else {
+        trackEvent("wa_panel_close", { source: "fab" });
+      }
+      return next;
+    });
+    setShowTip(false);
+  };
+
+  // Track clic en local
+  const handleClickReserva = (loc) => {
+    trackEvent("wa_outbound_click", {
+      local: loc.nombre,
+      numero: loc.numero,
+      label: loc.textoBoton,
+      method: "wa.me",
+    });
+    // El <a> abre en _blank, no hace falta preventDefault
+  };
+
   // Cerrar con Escape
   useEffect(() => {
-    const onKey = (e) => e.key === "Escape" && (setOpen(false), setShowTip(false));
+    const onKey = (e) => {
+      if (e.key === "Escape") {
+        if (open) {
+          setOpen(false);
+          trackEvent("wa_panel_close", { source: "escape" });
+        }
+        setShowTip(false);
+      }
+    };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, []);
+  }, [open]); // incluye "open" para track correcto
 
   // Cerrar panel al hacer clic fuera
   useEffect(() => {
     if (!open) return;
     const onClick = (e) => {
-      if (panelRef.current && !panelRef.current.contains(e.target)) setOpen(false);
+      if (panelRef.current && !panelRef.current.contains(e.target)) {
+        setOpen(false);
+        trackEvent("wa_panel_close", { source: "outside_click" });
+      }
     };
     document.addEventListener("mousedown", onClick);
     return () => document.removeEventListener("mousedown", onClick);
@@ -68,7 +118,10 @@ export default function WhatsAppFab() {
           <div className="flex items-center justify-between">
             <h3 className="text-base text-green-500 font-semibold">¡Reserva ahora!</h3>
             <button
-              onClick={() => setOpen(false)}
+              onClick={() => {
+                setOpen(false);
+                trackEvent("wa_panel_close", { source: "close_button" });
+              }}
               aria-label="Cerrar"
               className="rounded-lg p-1 text-green-500 hover:bg-neutral-100"
             >
@@ -83,6 +136,7 @@ export default function WhatsAppFab() {
                   href={waLink(loc.numero, loc.mensaje)}
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={() => handleClickReserva(loc)}
                   className="flex w-full items-center justify-between rounded-xl border px-3 py-2 bg-[#25D366] hover:bg-[#e8f8ee] hover:border-[#25D366] transition"
                 >
                   <span className="font-medium text-[#ffffff] hover:text-[#25D366]">
@@ -93,9 +147,7 @@ export default function WhatsAppFab() {
             ))}
           </ul>
 
-          <p className="mt-3 text-[11px] text-neutral-500">
-            
-          </p>
+          <p className="mt-3 text-[11px] text-neutral-500"></p>
         </div>
       </div>
 
@@ -125,14 +177,12 @@ export default function WhatsAppFab() {
 
       {/* Botón flotante con badge */}
       <button
-        onClick={() => {
-          setOpen((v) => !v);
-          setShowTip(false);
-        }}
+        onClick={handleTogglePanel}
         aria-label="Abrir WhatsApp"
         className="fixed bottom-4 right-4 md:bottom-6 md:right-6 z-50 rounded-full shadow-2xl transition-transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-[#25D366]/30"
         style={{
-          background: "linear-gradient(145deg, #2fe06f 0%, #25D366 40%, #1ebe5d 100%)",
+          background:
+            "linear-gradient(145deg, #2fe06f 0%, #25D366 40%, #1ebe5d 100%)",
           width: 64,
           height: 64,
         }}
@@ -151,9 +201,9 @@ export default function WhatsAppFab() {
           />
         </svg>
 
-        {/* Badge rojo */}
-       <span className="absolute -top-1 -right-1 inline-flex h-6 min-w-6 items-center justify-center rounded-full bg-red-500 px-1.5 text-xs font-bold text-white shadow-md animate-wiggle-twice">
-        1
+        {/* Badge rojo (con wiggle personalizado si lo tienes en tu CSS) */}
+        <span className="absolute -top-1 -right-1 inline-flex h-6 min-w-6 items-center justify-center rounded-full bg-red-500 px-1.5 text-xs font-bold text-white shadow-md animate-wiggle-twice">
+          1
         </span>
       </button>
     </>
