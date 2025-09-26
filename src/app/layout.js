@@ -18,13 +18,15 @@ export const metadata = {
     metadataBase: new URL('https://yuuki-ten.vercel.app/'),
 };
 import Analytics from "./analytics";
+import Metricool from "./metricool";
 
 export default function RootLayout({ children }) {
     return (
         <html lang="es">
             <body className={`${steelfishEb.variable} ${electroharmonix.variable} ${fredoka.variable} ${montserrat.className} dark text-foreground bg-background min-h-screen max-w-[100vw] overflow-x-hidden`} >
                 {children}
-                <Analytics />         
+                <Analytics />
+                <Metricool />         
             </body>
         </html>
     );
